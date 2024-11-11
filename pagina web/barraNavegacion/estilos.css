@@ -2,44 +2,107 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+
+body{
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
-ul{
-    list-style-type: none;
-    margin: 20px;
-    border: 1px solid black;
+a{
+    text-decoration: none;
+    color: black;
 }
 
 
+/*BARRA VERTICAL*/
 .vertical{
-    margin-bottom: 20px;
-    display: block;
     width: 150px;
+    height: auto;
     text-align: center;
+    margin: 20px;
 }
 
 .vertical li{
-    margin: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
 }
 
-.horizontal{
-    display: inline-block;
-    text-align: center;
-    padding: 20px;
+.vertical a:hover{
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-.horizontal li{
-    display: inline-block;
-    margin: 10px 20px;
+ul{
+    list-style-type: none;
+    border: 1px solid black;
 }
 
-a{
-    text-decoration: none;
+ul .activo{
+    text-decoration: underline ;
 }
 
 li a:hover{
-    text-decoration: underline ;
+    text-decoration: underline;
+    font-weight: bold;
 }
+
+/*BARRA HORIZONTAL*/
+#header{
+    width: 100%;
+    padding: 15px;
+    margin: 30px 0px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#header .botones{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.botones .activo{
+    background-color: lightgray;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+}
+
+.iconos{
+    position: absolute;
+    right: 0%;
+    display: 5px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.iconos i{
+    margin: 5px;
+}
+
+#header .botones a{
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+#header .logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+#header img{
+    width: 50px;
+    height: 50px;
+}
+
+
