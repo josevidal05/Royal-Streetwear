@@ -18,16 +18,31 @@ a{
 
 /*BARRA VERTICAL*/
 .vertical{
-    width: 150px;
-    height: auto;
-    text-align: center;
-    margin: 20px;
+    width: 250px;
+    padding: 20px;
+    margin-left: 10px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.vertical li{
-    margin-bottom: 50px;
-    margin-top: 50px;
-    
+.vertical img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.vertical a{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.vertical a.activo{
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .vertical a:hover{
@@ -54,30 +69,42 @@ li a:hover{
     width: 100%;
     padding: 15px;
     margin: 30px 0px;
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
     border: 1px solid black;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
 }
 
-#header .botones{
-    display: flex;
-    justify-content: flex-start;
+#header .botones, #header .iconos{
+    position: relative;
+}
+
+#header .logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.botones a{
+    text-align: center;
+    padding: 5px;
+    margin: 0px 5px;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .botones .activo{
-    background-color: lightgray;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-.logo{
-    position: absolute;
-    left: 50%;
+.botones a:hover{
+    box-shadow: 1px 1px 5px black;
 }
 
 .iconos{
-    position: absolute;
-    right: 0%;
-    display: 5px;
     font-size: 20px;
     margin: 15px;
 }
@@ -86,23 +113,7 @@ li a:hover{
     margin: 5px;
 }
 
-#header .botones a{
-    text-align: center;
-    border: 1px solid black;
-    width: 100px;
-    padding: 5px;
-    margin: 0px 5px;
-}
-
-#header .logo{
-    display: flex;
-    justify-content: center;
-
-}
-
 #header img{
     width: 50px;
     height: 50px;
 }
-
-
