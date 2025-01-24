@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -12,12 +12,12 @@ body{
 }
 
 /*CABECERA*/
-#header{
+#header {
     width: 100%;
     padding: 15px;
     margin: 30px 0px;
     border: 1px solid black;
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(2, auto);
     align-items: center;
     justify-content: space-between;
@@ -25,15 +25,14 @@ body{
 }
 
 
-
-#header .logo{
+#header .logo {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
 
 }
 
-.botones a{
+.botones a {
     text-align: center;
     padding: 5px;
     margin: 0px 5px;
@@ -42,7 +41,7 @@ body{
     text-decoration: none;
 }
 
-.menu a{
+.menu a {
     display: none;
 }
 
@@ -53,56 +52,56 @@ header:relative
 transform
 translate*/
 
-.botones .activo{
+.botones .activo {
     font-weight: bold;
     text-decoration: underline;
 }
 
-.botones a:hover{
+.botones a:hover {
     box-shadow: 1px 1px 5px black;
 }
 
-.iconos{
+.iconos {
     font-size: 20px;
     margin: 15px;
 }
 
-.iconos i{
+.iconos i {
     margin: 5px;
 }
 
-#header img{
+#header img {
     width: 50px;
     height: 50px;
 }
 
 /*FORMULARIO*/
-.login h1{
+.login h1 {
     text-align: center;
     margin-top: 50px;
 }
 
-.login h3{
+.login h3 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.login .formulario{
+.login .formulario {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
-.login input{
+.login input {
     margin: 5px;
     padding: 5px;
     align-self: center;
     width: 400px;
 }
 
-.login button{
+.login button {
     width: 400px;
     align-self: center;
     padding: 5px;
@@ -110,22 +109,22 @@ translate*/
     font-weight: bold;
 }
 
-.login p{
+.login p {
     text-align: center;
     font-size: 14px;
 }
 
-.login a{
-    color:blue;
+.login a {
+    color: blue;
 }
 
-.login a:hover{
+.login a:hover {
     color: blueviolet;
 }
 
 /*PIE DE PÁGINA*/
-.footer{
-    margin-top: 0px ;
+.footer {
+    margin-top: 0px;
     padding: 15px;
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -134,27 +133,28 @@ translate*/
 
 }
 
-.footer .redes div{
+.footer .redes div {
     display: grid;
     grid-template-columns: repeat(4, auto);
     justify-content: space-around;
 }
 
-.footer a{
+.footer a {
     color: gray;
     text-decoration: none;
     display: block;
     margin: 5px 0;
 }
 
-.footer a:hover{
-    color:black;
-}
-.footer  i:hover{
+.footer a:hover {
     color: black;
 }
 
-.footer i{
+.footer i:hover {
+    color: black;
+}
+
+.footer i {
     font-size: 20px;
     color: grey;
     display: grid;
@@ -162,26 +162,27 @@ translate*/
     justify-content: space-around;
 }
 
-.pie{
+.pie {
     text-align: center;
     background-color: #f9f9f9;
     padding: 10px;
 }
 
-.pie a{
+.pie a {
     color: blue;
 }
 
-.pie a:hover{
+.pie a:hover {
     color: blueviolet;
 }
 
 
-@media screen and (max-width: 690px){
-    .botones a{
+@media screen and (max-width: 690px) {
+    .botones a {
         display: none;
     }
-    .botones i{
+
+    .botones i {
         display: block;
         font-size: 20px;
     }
