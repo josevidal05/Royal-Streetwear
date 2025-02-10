@@ -71,56 +71,73 @@ translate*/
 }
 
 #header img {
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
 }
+
 
 /*FORMULARIO*/
-.login{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.login h1 {
-    text-align: center;
-}
-
-
-.login .formulario {
+.contenido{
     display: flex;
     justify-content: center;
+    padding: 25px;
     flex-direction: column;
+}
+
+.contenido img{
+    margin: 10px;
+}
+
+#nike{
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+
+.fila2{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+#nude, #nb{
+    width: 50%;
+    height: 100%;
+}
+
+.fila3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#adidas, #scuffers, #fg{
+    width: 30%;
+    height: 200px;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 
 }
 
-.login input {
-    margin: 5px;
-    padding: 5px;
-    align-self: center;
-    width: 400px;
+
+.productos img{
+    width: 250px;
+    height: 250px;
 }
 
-.login button {
-    width: 400px;
-    padding: 5px;
-    margin: 5px;
-    font-weight: bold;
+.precios{
+
 }
 
-.login p {
-    text-align: center;
-    font-size: 14px;
-}
 
-.login a {
-    color: blue;
-}
-
-.login a:hover {
-    color: blueviolet;
-}
 
 /*PIE DE PÁGINA*/
 .footer {
@@ -176,12 +193,8 @@ translate*/
     color: blueviolet;
 }
 
-.licencias{
-    margin-top: 10px;
-}
 
-
-@media screen and (max-width: 690px) {
+/*@media screen and (max-width: 690px) {
     .botones a {
         display: none;
     }
@@ -192,4 +205,4 @@ translate*/
     }
 
 
-}
+}*/
