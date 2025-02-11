@@ -78,10 +78,18 @@ translate*/
     height: 125px;
 }
 
+
+
+
+
+
+/*********************************************************************/
 /*FORMULARIO*/
-.login h1{
-    text-align: center;
-    margin-top: 50px;
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .login h3{
