@@ -77,73 +77,85 @@ translate*/
 }
 
 #header img {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
 }
 
 
-/*FORMULARIO*/
+/* PRODUCTO */
 
-.contenido{
-    display: flex;
-    justify-content: center;
-    padding: 25px;
-    flex-direction: column;
-}
-
-.contenido img{
-    margin: 10px;
-}
-
-#nike{
-    justify-content: center;
-    width: 100%;
-    height: 600px;
-}
-
-.fila2{
+.producto{
     display: flex;
     flex-direction: row;
-    height: 400px;
 }
 
-#nude, #nb{
-    width: 50%;
-    height: 100%;
-}
-
-.fila3{
+.vistas{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 920px;
+    justify-content: space-between;
+}
+
+.vistas img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.imagenPrincipal{
+    margin: 50px;
+    width: 790px;
+    height: 920px;
+}
+
+
+/* tallas y nombre producto */
+.informacion{
+    margin: 50px;
+    display: flex;  
+    flex-direction: column;  
+}
+
+.nombre{
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 15px;
     margin-bottom: 50px;
 }
 
-#adidas, #scuffers, #fg{
-    width: 30%;
-    height: 300px;
+.colores img{
+    height: 100px;
+    width: 100px;
 }
 
-.productos{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+h2{
+    margin-top: 50px;
+}
+
+.tallas{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.tallas button{
+    padding: 20px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.carrito{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+
 
 }
 
-
-.productos img{
-    width: 250px;
-    height: 250px;
-}
-
-.precios{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 
 
