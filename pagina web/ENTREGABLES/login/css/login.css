@@ -74,6 +74,7 @@ translate*/
 
 .iconos i {
     margin: 15px;
+    color: black;
 }
 
 #header img {
@@ -82,80 +83,55 @@ translate*/
 }
 
 
-/* PRODUCTO */
 
-.producto{
-    display: flex;
-    flex-direction: row;
-}
-
-.vistas{
+/*FORMULARIO*/
+.login{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-left: 50px;
-    height: 920px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
-.vistas img{
-    height: 100px;
-    width: 100px;
+.login h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login .formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
 }
 
-.imagenPrincipal{
-    margin: 50px;
-    width: 790px;
-    height: 920px;
-}
-
-
-/* tallas y nombre producto */
-.informacion{
-    margin: 50px;
-    display: flex;  
-    flex-direction: column;  
-}
-
-.nombre{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
-
-.colores img{
-    height: 100px;
-    width: 100px;
-}
-
-h2{
-    margin-top: 50px;
-}
-
-.tallas{
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-}
-
-.tallas button{
-    padding: 20px;
-    font-size: 20px;
+.login input{
     margin: 5px;
-    border-radius: 5px;
+    padding: 5px;
+    align-self: center;
+    width: 400px;
 }
 
-.carrito{
-    margin-top: 20px;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    border-radius: 50px;
-
-
+.login button{
+    width: 400px;
+    align-self: center;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
 }
 
+.login p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.login a{
+    color:blue;
+}
+
+.login a:hover{
+    color: blueviolet;
+}
 
 
 
