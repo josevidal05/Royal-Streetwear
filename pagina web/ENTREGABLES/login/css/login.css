@@ -12,10 +12,19 @@ body {
 }
 
 /*CABECERA*/
+
+.gratis{
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
 #header {
     width: 100%;
+    height: 100px;
     padding: 15px;
-    margin: 30px 0px;
+    margin-bottom: 30px;
     border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -189,16 +198,17 @@ translate*/
     color: blueviolet;
 }
 
-
-/*@media screen and (max-width: 690px) {
-    .botones a {
-        display: none;
-    }
-
-    .botones i {
-        display: block;
+/*RESPONSIVE*/
+@media screen and (max-width: 620px) {
+    .iconos{
         font-size: 20px;
     }
 
+    .iconos i{
+        margin: 5px;
+    }
 
-}*/
+    .barra a{
+        font-size: 20px;
+    }
+}

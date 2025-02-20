@@ -11,7 +11,9 @@
 </head>
 
 <body>
-
+    <div class="gratis">
+        <p>ENVIOS GRATIS A PARTIR DE 80 €</p>
+    </div>
     <div id="header">
         <div class="menu">
             <div class="botones">
@@ -38,58 +40,93 @@
         </div>
     </div>
 
-    <div class="carrito">
-        <div class="info">
-            <h3>Producto</h3>
-            <h3>Cantidad</h3>
-            <h3>Total</h3>
-        </div>
-        <div class="productos">
-            <div class="producto1">
+
+    <table>
+
+        <tr class="cabecera_tabla">
+
+            <th>Producto</th>
+            <th></th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+
+        </tr>
+
+
+        <tr class="producto">
+
+            <td class="foto">
                 <a href="/pagina web/ENTREGABLES/Producto/producto.html">
                     <img src="/imagenes/chaqueta gris fake gods.png" alt="chaqueta fg">
-                    <div class="info_prod">
-                        <p>Sudadera con cremallera</p>
-                        <p>75€</p>
-                        <p>gris claro / L</p>
-                    </div>
-                    <p>2</p>
-                    <p>150,00€</p>
                 </a>
-            </div>
-            <div class="producto2">
+            </td>
+            <td class="info">
+                <a href="/pagina web/ENTREGABLES/Producto/producto.html">
+                    <p>Sudadera con cremallera</p>
+                    <p>75€</p>
+                    <p>gris claro / L</p>
+                </a>
+            </td>
+
+            <td class="cantidad">2</td>
+            <td class="precio">150,00€</td>
+        </tr>
+
+        <tr class="producto">
+
+            <td class="foto">
                 <a href="/pagina web/ENTREGABLES/Producto/producto.html">
                     <img src="/imagenes/nb 9060 gris.png" alt="nb9060">
-                    <div class="info_prod">
-                        <p>Zapatillas New Balance 9060</p>
-                        <p>190,00€</p>
-                        <p>gris / 42</p>
-                    </div>
-                    <p>1</p>
-                    <p>190,00€</p>
                 </a>
-            </div>
-            <div class="producto1">
+            </td>
+            <td class="info">
                 <a href="/pagina web/ENTREGABLES/Producto/producto.html">
-                    <img src="/imagenes/sudadera verde cold.png" alt="chaqueta fg">
-                    <div class="info_prod">
-                        <p>Sudadera Cold Culture</p>
-                        <p>69,00€</p>
-                        <p>verde / L</p>
-                    </div>
-                    <p>1</p>
-                    <p>69,00€</p>
+                    <p>Zapatillas New Balance 9060</p>
+                    <p>190€</p>
+                    <p>gris / 42</p>
                 </a>
-            </div>
-        </div>
+            </td>
 
-        <h1>TOTAL</h1>
-        <h1>4</h1>
-        <h1>409,00€</h1>
+            <td class="cantidad">1</td>
+            <td class="precio">190,00€</td>
+        </tr>
 
-        <button>PEDIR Y PAGAR</button>
+        <tr class="producto">
+            <td class="foto">
+                <a href="/pagina web/ENTREGABLES/Producto/producto.html">
+                    <img src="/imagenes/sudadera verde cold.png" alt="sudadera cold culture">
+                </a>
+            </td>
+            <td class="info">
+                <a href="/pagina web/ENTREGABLES/Producto/producto.html">
+                    <p>Sudadera Cold Culture</p>
+                    <p>69,00€</p>
+                    <p>verde / L</p>
+                </a>
+            </td>
 
-    </div>
+            <td class="cantidad">1</td>
+            <td class="precio">69,00€</td>
+        </tr>
+
+        <tr>
+
+            <td class="total">TOTAL</td>
+            <td></td>
+            <td class="cantidad_total">4</td>
+            <td class="precio_total">409,00€</td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+            <td class="pagar">
+                <button>PEDIR Y PAGAR</button>
+            </td>
+        </tr>
+
+    </table>
+
+
 
     <div class="footer">
         <div class="redes">
