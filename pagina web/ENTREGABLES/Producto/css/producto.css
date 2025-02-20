@@ -125,13 +125,10 @@ translate*/
     margin: 50px;
     height: auto;
     object-fit: cover;
-    
 }
 
 .imagenPrincipal img{
-
     object-fit: cover;
-
 }
 
 .vistas2{
@@ -141,7 +138,10 @@ translate*/
 .vistas2 img{
     height: 100px;
     width: 100px;
-    
+}
+
+.vistas2 img:hover{
+    border: 1px solid black;
 }
 
 
