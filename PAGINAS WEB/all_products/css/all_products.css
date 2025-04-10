@@ -1,0 +1,111 @@
+
+/*PRODUCTOS*/
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+}
+
+.productos img{ /*la foto del producto */
+    width: 300px;
+    height: 300px;
+    margin-bottom: 5px;
+
+}
+
+.productos a{ /* cada uno de los productos */
+    width: 350px;
+    height: 400px;
+    text-decoration: none;
+    margin: 20px 0px; 
+    border: 1px solid black;
+    padding: 25px;
+    /*font-size: 20px;*/
+}
+
+.productos p{ /* descripción del producto */
+    color: black;
+    text-decoration: none;
+}
+
+.productos .precio{ /*precio del producto */
+    font-weight: bold;
+}
+
+.productos a:hover p{ /* hover de la descripción del producto */
+    text-decoration: underline;
+}
+
+.i2{ /* imagen que se muestra al hacer el hover */
+    display: none
+}
+
+.productos a:hover .i1{ /* hover de cada producto para cambiar las imagenes */
+    display: none;
+}
+
+.productos a:hover .i2{ 
+    display: block;
+}
+
+/* Número de páginas */
+.paginas{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numPaginas{
+    display: flex;
+    justify-content: center;
+}
+.numPaginas a{
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.numPaginas a:hover{
+    color:gray;
+}
+
+.numPaginas .activo{
+    font-weight: bold;
+}
+
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1500px) {
+    .productos{
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .productos{
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .productos{
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .iconos{
+        font-size: 20px;
+    }
+
+    .iconos i{
+        margin: 5px;
+    }
+
+    .hamburguesa a{
+        font-size: 20px;
+    }
+}
+

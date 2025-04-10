@@ -1,0 +1,131 @@
+
+/* CONTENIDO */
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.contenido div{
+    margin-top: 10px;
+}
+
+#nude, #scuffers, #fg{
+    margin-right: 10px;
+}
+
+/*MARCAS*/
+.marcas{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    
+    align-self: center;
+}
+
+#nike{
+    justify-content: center;
+    max-height: 600px;
+    width: 100%;
+
+}
+
+.fila2{
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    justify-content: space-between;
+    min-height: 50px;
+}
+
+.fila2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.fila3{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-between;
+    margin-bottom: 50px;
+    min-height: 50px;
+}
+
+.fila3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*BEST SELLERS*/
+.productos .producto:hover img{
+    border: 1px solid black
+}
+.productos .producto:hover p{
+    font-weight: bold;
+}
+.productos .producto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.best_sellers {
+    width: 80%;
+    align-self: center;
+    /*overflow-x: auto; // Habilita el desplazamiento horizontal */
+    /*white-space: nowrap; // Evita el salto de línea */
+    padding-bottom: 10px;
+}
+
+.best_sellers h2{
+    margin-left: 15px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(6, auto) ;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productos img {
+    align-self: center;
+    width: 175px;
+    height: 175px;
+}
+
+.producto{
+    margin: 20px;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1400px) {
+    .productos{
+        grid-template-columns: repeat(4, auto);
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .productos{
+        grid-template-columns: repeat(3, auto);
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .productos{
+        grid-template-columns: repeat(2, auto);
+    }
+    
+
+
+}

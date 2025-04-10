@@ -1,0 +1,43 @@
+/* Estilos básicos para la imagen principal y las secundarias */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-principal img {
+    width: 400px; /* Tamaño grande para la imagen principal */
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+.imagenes-secundarias {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-secundaria {
+    width: 80px; /* Tamaño más pequeño para las imágenes secundarias */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.img-secundaria:hover {
+    transform: scale(1.1); /* Efecto de hover para hacer que se vean más grandes */
+}

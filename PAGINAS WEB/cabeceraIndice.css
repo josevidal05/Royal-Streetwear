@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+/*CABECERA*/
+.gratis{
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#header {
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+#header .logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+/* LOS BOTONES ESTÁN OCULTOS */
+
+#botones a {
+    /*text-align: center;
+    padding: 5px;
+    margin: 0px 5px;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;*/
+    display: none;
+}
+/*
+.botones .activo {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.botones a:hover {
+    box-shadow: 1px 1px 5px black;
+}*/
+
+.iconos, #hamburguesa a {
+    font-size: 20px;
+    margin: 5px;
+    color: black;
+}
+
+.iconos i {
+    margin: 10px;
+    color: black;
+}
+
+.iconos i:hover, #hamburguesa a:hover{
+    color: gray;
+}
+
+
+#header img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    margin-top: 100px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: #f9f9f9;
+    justify-content: space-evenly;
+
+}
+
+.footer .redes div {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+}
+
+.footer a {
+    color: gray;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer a:hover {
+    color: black;
+}
+
+.footer i:hover {
+    color: black;
+}
+
+.footer i {
+    font-size: 20px;
+    color: grey;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+}
+
+.pie {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.pie a {
+    color: blue;
+}
+
+.pie a:hover {
+    color: blueviolet;
+}

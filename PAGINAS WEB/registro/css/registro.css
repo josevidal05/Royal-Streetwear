@@ -1,0 +1,65 @@
+/*FORMULARIO*/
+.registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.registro .formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.registro input{
+    margin: 5px;
+    padding: 5px;
+    align-self: center;
+    width: 400px;
+}
+
+.registro button{
+    width: 400px;
+    align-self: center;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.registro p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.registro a{
+    color:blue;
+}
+
+.registro a:hover{
+    color: blueviolet;
+}
+
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 620px) {
+    .iconos{
+        font-size: 20px;
+    }
+
+    .iconos i{
+        margin: 5px;
+    }
+
+    .hamburguesa a{
+        font-size: 20px;
+    }
+}
