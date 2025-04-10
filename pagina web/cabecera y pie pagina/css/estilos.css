@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CABECERA*/
+#header{
+    width: 100%;
+    padding: 15px;
+    margin: 30px 0px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#header .botones{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.botones .activo{
+    background-color: lightgray;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+}
+
+.iconos{
+    position: absolute;
+    right: 0%;
+    display: 5px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.iconos i{
+    margin: 5px;
+}
+
+#header .botones a{
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+#header .logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+#header img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*PIE DE PÁGINA*/
+.pie_pagina{
+    padding: 15px;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pie_pagina ul{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+}
+
+.pie_pagina li {
+    list-style-type: none;
+}
+
+.pie_pagina .nombre{
+    text-decoration: underline;
+}
+
+.p_pie_pagina a:hover{
+    font-weight: bold;
+    align-items: center;
+    bottom: 0;
+    
+}
+
+.pie_pagina li a{
+    color: gray;
+    text-decoration: none;
+
+}
+
+.pie_pagina a:hover{
+    color:black;
+
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+}
+
+.redes div{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: grey
+}
+
+.redes div i:hover{
+    color: black;
+}
+

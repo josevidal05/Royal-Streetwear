@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pie_pagina{
+    padding: 15px;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+.pie_pagina ul{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+}
+
+.pie_pagina li {
+    list-style-type: none;
+}
+
+.pie_pagina .nombre{
+    text-decoration: underline;
+}
+
+.p_pie_pagina a:hover{
+    font-weight: bold;
+    align-items: center;
+    bottom: 0;
+    
+}
+
+.pie_pagina li a{
+    color: gray;
+    text-decoration: none;
+
+}
+
+.pie_pagina a:hover{
+    color:black;
+
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+}
+
+.redes div{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: grey
+}
+
+.redes div i:hover{
+    color: black;
+}
+
