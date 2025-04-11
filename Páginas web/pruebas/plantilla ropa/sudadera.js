@@ -1,3 +1,4 @@
+
 const tallas = document.querySelectorAll('.talla');
 const botonCesta = document.getElementById('carrito');
 
@@ -17,12 +18,13 @@ tallas.forEach((boton) => {
   });
 });
 
+
+//CAMBIO DE LA IMAGEN PRINCIPAL DEL PRODUCTO
 function cambiarImagen(imagen) {
   const imgPrincipal = document.querySelector(".principal");
   imgPrincipal.src = imagen; // Cambiar la imagen principal
 }
 
-/* Dar la clase .selected a la imagen que se clickeo */
 const imgSecundarias = document.querySelectorAll(".imgS");
 imgSecundarias.forEach((img) => {
   img.addEventListener("click", () => {
@@ -34,15 +36,6 @@ imgSecundarias.forEach((img) => {
   });
 });
 
-/* cambio de la imagen principal del producto por las imagenes de las vistas */
-/*const imgP = document.getElementsByClassName("imagenPrincipal");
-const vistas = document.querySelectorAll(".i2");
-vistas.addEventListener("mouseover", cambiarImagen)
-
-function cambiarImagen(){
-    document.querySelector(".imagenPrincipal img")[0].style.display = "none";
-}
-*/
 
 /*despliegue del menu de la hamburguesa *//*
 const burguer = document.getElementById("hamburguesa");
@@ -60,10 +53,5 @@ function nodespliega() {
 
 
 /* funcion para que la talla en la que se clique se quede marcada */
-const talla1 = document.getElementById("t1");
-talla1.addEventListener("click", marcarTalla);
-function marcarTalla(e){
-    talla1.style.fontWeight="bold";
-    talla1.style.backgroundColor = "lightgrey";
-}
+
 

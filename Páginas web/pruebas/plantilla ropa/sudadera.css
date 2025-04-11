@@ -4,11 +4,11 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto; /* Centrar horizontalmente */
 }
 
 .zapatilla{
-    max-height: 650px;
+    /*height: ;*/
     
     
     
@@ -22,7 +22,7 @@
     flex-direction: column;
     margin-top: 10px;
     margin-left: 50px;
-    max-height: 650px;
+    height: 650px;
     justify-content: space-between;
 }
 
@@ -37,8 +37,9 @@
 }
 
 #imagenPrincipal{
+    margin: 20px;
     width: 650px;
-    max-height: 650px;
+    height: auto;
     object-fit: cover;
     justify-content: center;
     align-items: center;
@@ -47,7 +48,7 @@
 #imagenPrincipal img{
     object-fit: cover;
     width: 100%;
-    max-height: 650px;
+    height: 650px;
 }
 
 .vistasH{
@@ -132,10 +133,7 @@ h2{
     font-weight: bold;
 }
 
-.talla:active {
-    background-color: #0056b3;
-}
-  
+
 /* Deshabilitar el botón de "Añadir a la cesta" cuando no hay selección */
 #añadirCesta:disabled {
     background-color: #ccc;
@@ -173,12 +171,17 @@ h2{
 .interes h2{
     
     margin-bottom: 25px;
+    display: flex;
 }
 
 .interes_productos{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+};
+
+.interes_productos a{
+    max-height: 200px;
 }
 
 .interes_productos img{
