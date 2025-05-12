@@ -1,23 +1,19 @@
 /* PRODUCTO */
 
-.producto{
+.producto {
     display: grid;
     grid-template-columns: repeat(2, auto);
     width: 90%;
     margin: 0 auto;
 }
 
-.zapatilla{
-    max-height: 650px;
-    
-    
-    
+.zapatilla {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    
+
 }
 
-.vistasV{
+.vistasV {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -26,17 +22,17 @@
     justify-content: space-between;
 }
 
-.vistasV img{
+.vistasV img {
     height: 75px;
     width: 75px;
-    
+
 }
 
-.vistasV img:hover{
+.vistasV img:hover {
     border: 1px solid black;
 }
 
-#imagenPrincipal{
+#imagenPrincipal {
     width: 650px;
     max-height: 650px;
     object-fit: cover;
@@ -44,77 +40,79 @@
     align-items: center;
 }
 
-#imagenPrincipal img{
+#imagenPrincipal img {
     object-fit: cover;
     width: 100%;
     max-height: 650px;
 }
 
-.vistasH{
+.vistasH {
     display: none;
+    margin: 200px;
 }
 
-.vistasH img{
+.vistasH img {
     height: 100px;
     width: 100px;
 }
 
-.vistasH img:hover{
+.vistasH img:hover {
     border: 1px solid black;
 }
 
-.vistasH img:active, .vistasV img:active{
+.vistasH img:active,
+.vistasV img:active {
     border: 1px solid black;
 }
 
-.imgS.selected{
+.imgS.selected {
     border: 1px solid black;
 }
 
 /* tallas y nombre producto */
-.informacion{
+.informacion {
     margin: 50px;
-    display: flex;  
-    flex-direction: column;  
+    display: flex;
+    flex-direction: column;
 }
 
-.nombre{
+.nombre {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.colores{
+.colores {
     display: grid;
     grid-template-columns: repeat(4, auto);
     justify-content: space-evenly;
 }
 
-.colores img{
+.colores img {
     height: 75px;
     width: 75px;
     margin: 5px;
 }
 
-.colores .activo{
+.colores .activo {
     border: 1px solid black;
 }
 
-.colores img:hover{
+.colores img:hover {
     border: 1px, solid black;
 }
 
-h2{
+h2 {
     margin-top: 50px;
 }
 
-.tallas{
+.tallas {
     display: grid;
     grid-template-columns: repeat(4, auto);
 }
 
-.talla{
+.talla {
     padding: 10px;
     margin: 5px;
     font-size: 20px;
@@ -126,7 +124,7 @@ h2{
 
 }
 
-.talla.selected{
+.talla.selected {
     background-color: gray;
     color: white;
     font-weight: bold;
@@ -135,19 +133,19 @@ h2{
 .talla:active {
     background-color: #0056b3;
 }
-  
+
 /* Deshabilitar el botón de "Añadir a la cesta" cuando no hay selección */
 #añadirCesta:disabled {
     background-color: #ccc;
     cursor: not-allowed;
 }
 
-.tallas button:hover{
+.tallas button:hover {
     background-color: lightgray;
     font-weight: bold;
 }
 
-#carrito{
+#carrito {
     margin-top: 20px;
     background-color: black;
     color: white;
@@ -157,50 +155,51 @@ h2{
 
 }
 
-#carrito:hover{
+#carrito:hover {
     background-color: grey;
 }
 
 /* PRODUCTOS DE INTERES*/
-.interes{
+.interes {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 0 auto; /* Centrar horizontalmente */
+    margin: 0 auto;
+    /* Centrar horizontalmente */
 
 }
 
-.interes h2{
-    
+.interes h2 {
+
     margin-bottom: 25px;
 }
 
-.interes_productos{
+.interes_productos {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.interes_productos img{
+.interes_productos img {
     width: 200px;
     height: 200px;
 }
 
-.interes_productos img:hover{
+.interes_productos img:hover {
     border: 1px solid black;
 }
 
 
 /*RESPONSIVE*/
 
-@media screen and (max-width: 1500px) and (min-width:1360px){
-    .colores{
+@media screen and (max-width: 1500px) and (min-width:1360px) {
+    .colores {
         grid-template-rows: repeat(4, auto);
     }
 }
 
-@media screen and (max-width: 1360px) {
-    .producto{
+@media screen and (max-width: 1360px) and (min-width: 600px) {
+    .producto {
         grid-template-columns: repeat(1, auto);
         width: 100%;
         margin: 0;
@@ -209,15 +208,15 @@ h2{
         justify-content: center;
     }
 
-    .zapatilla{
+    .zapatilla {
         display: grid;
         grid-template-rows: repeat(2, auto);
         width: 100%;
         align-items: center;
     }
 
-    
-    #imagenPrincipal{
+
+    #imagenPrincipal {
         width: 100%;
         height: auto;
         object-fit: cover;
@@ -225,65 +224,113 @@ h2{
         margin: 0px;
     }
 
-    #imagenPrincipal img{
-        width: 100%;
-        height: auto;
+    #imagenPrincipal img {
+        width: 440px;
+        height: 444px;
         object-fit: cover;
         padding: 0;
         margin-bottom: 50px;
         align-self: center;
-        
     }
 
-    .vistasH{
+    .vistasH {
         display: grid;
         grid-template-columns: repeat(3, auto);
         justify-content: space-evenly;
         margin: 0px 15px;
     }
 
-    .vistasH img{
+    .vistasH img {
         margin: 5px;
     }
 
-    .vistasV{
+    .vistasV {
         display: none;
     }
 
-    .interes_productos{
+    .interes_productos {
         display: grid;
         grid-template-columns: repeat(2, auto);
         justify-content: space-evenly;
     }
-    
 
-    .interes_productos a{
+
+    .interes_productos a {
         margin: 5px;
     }
 }
 
-/*@media screen and (max-width: 600px) {
-    .iconos{
-        font-size: 20px;
+
+@media screen and (max-width: 600px)  {
+    .producto {
+        grid-template-columns: repeat(1, auto);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        justify-content: center;
     }
 
-    .iconos i{
+    .zapatilla {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        width: 100%;
+        align-items: center;
+    }
+
+
+    #imagenPrincipal {
+        width: 350px;
+        height: 360px;
+        object-fit: cover;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    #imagenPrincipal img {
+        margin: 0 auto;
+        width: 350px;
+        height: 360px;
+        object-fit: cover;
+        padding: 0;
+        margin-bottom: 50px;
+        align-self: center;
+    }
+
+    .vistasH {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-evenly;
+        margin: 0px 15px;
+    }
+
+    .vistasH img {
         margin: 5px;
     }
 
-    .hamburguesa a{
-        font-size: 20px;
+    .vistasV {
+        display: none;
     }
 
-    .interes_productos{
+    .colores {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-evenly;
+    }
+
+    .tallas {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .interes_productos {
         display: grid;
         grid-template-columns: repeat(1, auto);
         justify-content: space-evenly;
     }
-    
 
-    .interes_productos a{
+
+    .interes_productos a {
         margin: 5px;
     }
 }
-*/
