@@ -3,20 +3,17 @@
 
 <head>
     <link rel="shortcut icon" href="imagenes/royal.png" />
-
     <script src="https://kit.fontawesome.com/1cafd7d341.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Streetwear</title>
-    <link rel="stylesheet" href="./cabeceraIndice.css">
-    <link rel="stylesheet" href="./pagPrincipal.css" media="screen">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../cabeceraIndice.css">
+    <link rel="stylesheet" href="css/registro.css" media="screen">
 </head>
 
 <body>
-    <div class="gratis">
-        <p>ENVIOS GRATIS A PARTIR DE 80 €</p>
-    </div>
+
     <div id="header">
         <div class="menu">
             <div class="menu">
@@ -25,7 +22,7 @@
                     <a href="#">Zapatillas</a>
                     <a href="#">Novedades</a>
                     <a href="#">Best Sellers</a>
-                    
+
                 </div>
                 <div id="hamburguesa">
                     <a href="../all_products"><i class="fa-solid fa-bars"></i></a>
@@ -45,63 +42,19 @@
         </div>
     </div>
 
-    <div class="contenido">
+    <div class="registro">
+        <h1>INICIAR SESIÓN</h1>
+        <div class="formulario">
+            <input id="nombre" type="text" placeholder="Nombre" />
+            <input id="apellidos" type="text" placeholder="Apellidos" />
+            <input id="correo" type="email" placeholder="Correo electrónico" />
 
-        <div class="marcas">
-            <img src="../imagenes/logos marcas/nike.jpg" alt="nike" id="nike">
+            <input id="contraseña" type="password" placeholder="Contraseña" />
+            <input id="contraseña2" type="password" placeholder="Repite la contraseña" />
+            <button id="enviar" onclick="send()">Confirmar</button>
 
-            <div class="fila2">
-                <img src="../imagenes/logos marcas/nude project.jpg" alt="nude" id="nude">
-                <img src="../imagenes/logos marcas/new balance.png" alt="nb" id="nb">
-            </div>
-
-            <div class="fila3">
-                <img src="../imagenes/logos marcas/scuffers.jpg" alt="scuffers" id="scuffers">
-                <img src="../imagenes/logos marcas/fake gods.png" alt="fg" id="fg">
-                <img src="../imagenes/logos marcas/adidas.jpg" alt="adidas" id="adidas">
-            </div>
+            </form>
         </div>
-
-
-        <div class="best_sellers">
-            <h2>BEST SELLERS</h2>
-            <div class="productos">
-                <div class="producto">
-                    <a href="../producto"><img src="../imagenes/zapatillas/nb 9060 gris.png" alt="9060 gris" id="9060_gris"></a>
-                    <p class="p1">190,00€</p>
-                </div>
-                <div class="producto">
-                    <a href="../producto"><img src="../imagenes/ropa/sudadera verde cc.png" alt="sudadera verde cold" id="sudadera_verde_cold"></a>
-                    <p class="p2">69,00€</p>
-
-                </div>
-                <div class="producto">
-                    <a href="../producto"><img src="../imagenes/ropa/pantalon fg.png" alt="pantalon blanco fg" id="pantalon_blanco_fg"></a>
-                    <p class="p3">79,00€</p>
-
-                </div>
-                <div class="producto">
-                    <a href="../producto"><img src="../imagenes/ropa/jersey blanco scuff.png" alt="jersey blanco scuffers" id="jersey_blanco_scuffers"></a>
-                    <p class="p4">79,00€</p>
-
-                </div>
-                <div class="producto">
-                    <a href="../producto"><img src="../imagenes/zapatillas/cacao 1.png" alt="dunk cacao" id="dunk_cacao"></a>
-                    <p class="p5">120,00€</p>
-
-                </div>
-                <div class="producto">
-                    <a href="../producto"><img src="../imagenes/ropa/camiseta blanca np.png" alt="camiseta blanca np" id="camiseta_blanca_np"></a>
-                    <p class="p6">45,00€</p>
-
-                </div>
-
-            </div>
-            <div class="precios">
-            </div>
-            <!--barra de navegacion-->
-        </div>
-
     </div>
 
     <div class="footer">
@@ -161,7 +114,7 @@
     </div>
 
 
-
+    <script src="./registro.js"></script>
 </body>
 
 </html>

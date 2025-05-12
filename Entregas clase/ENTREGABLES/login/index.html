@@ -5,50 +5,44 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Registro</title>
-        <link rel="stylesheet" href="../cabeceraIndice.css">
-        <link rel="stylesheet" href="css/registro.css" media="screen">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/login.css">
     </head>
     <body>
 
         <div id="header">
             <div class="menu">
-                <div class="menu">
-                    <div id="botones">
-                        <a href="#">Ropa</a>
-                        <a href="#">Zapatillas</a>
-                        <a href="#">Novedades</a>
-                        <a href="#">Best Sellers</a>
-                        
-                    </div>
-                    <div id="hamburguesa">
-                        <a href="../all_products/all_products.html"><i class="fa-solid fa-bars"></i></a>
-                    </div>
-                </div>    
+                <div class="botones">
+                    <a href="#" class="activo">ROPA</a>
+                    <a href="#">ZAPATILLAS</a>
+                    <a href="#">NOVEDADES</a>
+                    
+                </div>
+                <div class="barra">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>            
             </div>
             
             
             <div class="logo">
-                <a href="../Pagina principal/paginaPrincipal.html"><img src="../../imagenes/royal.png"></a>
+                <a href="/pagina web/ENTREGABLES/Pagina principal/paginaPrincipal.html"><img src="/imagenes/royal.png"></a>
             </div>
             
             <div class="iconos">
                 <a><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="../login/login.html"><i class="fa-solid fa-user"></i></a>
-                <a href="../carrito/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="/pagina web/ENTREGABLES/login/index.html"><i class="fa-solid fa-user"></i></a>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
             </div>
         </div>
         
-        <div class="registro">
+        <div class="login">
             <h1>INICIAR SESIÓN</h1>
             <div class="formulario">
-                    <input id="nombre" type="text" placeholder="Nombre"/>
-                    <input id="apellidos" type="text" placeholder="Apellidos"/>
-                    <input id="correo" type="email" placeholder="Correo electrónico"/>
-
-                    <input id="contraseña" type="password" placeholder="Contraseña"/> 
-                    <input id="contraseña2" type="password" placeholder="Repite la contraseña"/> 
-                    <button id="enviar" onclick="send()">Confirmar</button>
+                <form class="login" method="post"></form>
+                    <input class="correo" type="email" placeholder="Correo electrónico">
+                    <input class="contraseña" type="password" placeholder="Contraseña"> 
+                    <button class="enviar">Iniciar sesión</button>
+                    <p>¿No tienes cuenta? <a href="#">Regístrate</a></p>
 
                 </form>
             </div>
@@ -102,6 +96,6 @@
         </div>
 
         
-        <script src="./registro.js"></script>
+
     </body>
 </html>
