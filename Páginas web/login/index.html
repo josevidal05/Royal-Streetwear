@@ -9,9 +9,13 @@
     <title>Login</title>
     <link rel="stylesheet" href="../headerFooter.css">
     <link rel="stylesheet" href="css/login.css" media="screen">
+    <link rel="stylesheet" href="../cookies/cookies.css">
 </head>
 
 <body>
+    <div class="gratis">
+        <p>ENVIOS GRATIS A PARTIR DE 80 €</p>
+    </div>
 
     <div id="header">
         <div class="menu">
@@ -38,7 +42,7 @@
 
         <div class="iconos">
             <a><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="../producto"><i class="fa-solid fa-user"></i></a>
+            <a href="../login"><i class="fa-solid fa-user"></i></a>
             <a href="../carrito"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
     </div>
@@ -111,7 +115,16 @@
                     src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
     </div>
 
+    <div id="cookie-banner">
+        Usamos cookies para mejorar tu experiencia.
+        <a href="https://ainesc.com/politica-de-cookies/" target="_blank">Más información</a>
+        <button onclick="aceptarCookies()">Aceptar</button>
+        <button onclick="rechazarCookies()">Rechazar cookies</button>
+
+    </div>
+
     <script src="../mostrarMenu.js"></script>
+    <script src="../cookies/cookies.js"></script>
 
 </body>
 

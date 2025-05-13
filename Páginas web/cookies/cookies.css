@@ -1,0 +1,30 @@
+#cookie-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    z-index: 1000;
+    display: none;
+    /* se muestra con JS si no hay cookie */
+}
+
+#cookie-banner a {
+    color: #4FC3F7;
+    text-decoration: underline;
+}
+
+/* boton de aceptar cookies */
+#cookie-banner button {
+    margin-left: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}

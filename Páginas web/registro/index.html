@@ -10,23 +10,29 @@
     <title>Registro</title>
     <link rel="stylesheet" href="../headerFooter.css">
     <link rel="stylesheet" href="css/registro.css" media="screen">
+    <link rel="stylesheet" href="../cookies/cookies.css">
 </head>
 
 <body>
+    <div class="gratis">
+        <p>ENVIOS GRATIS A PARTIR DE 80 €</p>
+    </div>
 
     <div id="header">
         <div class="menu">
-            <div class="menu">
-                <div id="desplegable" class="hidden">
-                    <a href="#">Ropa</a>
-                    <a href="#">Zapatillas</a>
-                    <a href="#">Novedades</a>
-                    <a href="#">Best Sellers</a>
+            <div id="hamburguesa" onclick="mostrarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
 
-                </div>
-                <div id="hamburguesa">
-                    <a href="../all_products"><i class="fa-solid fa-bars"></i></a>
-                </div>
+            <div id="desplegable" class="hidden">
+                <div class="close-btn" onclick="mostrarMenu()">x</div>
+
+                <ul class="menu-desplegable">
+                    <li><a href="../all_products/">Ropa</a></li><hr>
+                    <li><a href="../all_products/">Zapatillas</a></li><hr>
+                    <li><a href="../all_products/">Novedades</a></li><hr>
+                    <li><a href="../all_products/">Best Sellers</a></li>
+                </ul>
             </div>
         </div>
 
@@ -37,7 +43,7 @@
 
         <div class="iconos">
             <a><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="../producto"><i class="fa-solid fa-user"></i></a>
+            <a href="../login"><i class="fa-solid fa-user"></i></a>
             <a href="../carrito"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
     </div>
@@ -57,7 +63,7 @@
         </div>
     </div>
 
-    <div class="footer">
+    <div id="footer">
         <div class="redes">
             <h3>Royal Streetwear</h3>
             <a href="#" class="correo">help@royal-streetwear.com</a>
@@ -113,8 +119,18 @@
                     src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
     </div>
 
+    <div id="cookie-banner">
+        Usamos cookies para mejorar tu experiencia.
+        <a href="https://ainesc.com/politica-de-cookies/" target="_blank">Más información</a>
+        <button onclick="aceptarCookies()">Aceptar</button>
+        <button onclick="rechazarCookies()">Rechazar cookies</button>
+
+    </div>
+
 
     <script src="./registro.js"></script>
+    <script src="../cookies/cookies.js"></script>
+    <script src="../mostrarMenu.js"></script>
 </body>
 
 </html>
