@@ -1,174 +1,204 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="shortcut icon" href="imagenes/royal.png" />
-        <script src="https://kit.fontawesome.com/1cafd7d341.js" crossorigin="anonymous"></script>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dunk cacao</title>
-        <link rel="stylesheet" href="../headerFooter.css">
-        <link rel="stylesheet" href="css/producto.css" media="screen">
-    </head>
-    <body>
-        <div class="gratis">
-            <p>ENVIOS GRATIS A PARTIR DE 80 €</p>
-        </div>
-        <div id="header">
-            <div class="menu">
-                <div id="botones">
-                    <a href="#">Ropa</a>
-                    <a href="#">Zapatillas</a>
-                    <a href="#">Novedades</a>
-                    <a href="#">Best Sellers</a>
-                    
-                </div>
-                <div id="hamburguesa">
-                    <a href="../all_products"><i class="fa-solid fa-bars"></i></a>
-                </div>
-            </div>
-            
-            
-            <div class="logo">
-                <a href=".."><img src="../imagenes/royal.png"></a>
-            </div>
-            
-            <div class="iconos">
-                <a><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="../producto"><i class="fa-solid fa-user"></i></a>
-                <a href="../carrito"><i class="fa-solid fa-cart-shopping"></i></a>
-            </div>
-        </div>
-        
-        <div class="producto">
-            
-            <div class="zapatilla">
-                <div class="vistasV">
-                    <img src="../imagenes/zapatillas/cacao 1.png" class="imgS" alt="v1" onclick="cambiarImagen('../imagenes/zapatillas/cacao 1.png')">
-                    <img src="../imagenes/zapatillas/cacao 2.png" class="imgS" alt="v2" onclick="cambiarImagen('../imagenes/zapatillas/cacao 2.png')">
-                    <img src="../imagenes/zapatillas/cacao 3.png" class="imgS" alt="v3" onclick="cambiarImagen('../imagenes/zapatillas/cacao 3.png')">
-                    <img src="../imagenes/zapatillas/cacao 4.png" class="imgS" alt="v4" onclick="cambiarImagen('../imagenes/zapatillas/cacao 4.png')">
-                    <img src="../imagenes/zapatillas/cacao 5.png" class="imgS" alt="v5" onclick="cambiarImagen('../imagenes/zapatillas/cacao 5.png')">
-                    <img src="../imagenes/zapatillas/cacao 6.png" class="imgS" alt="v6" onclick="cambiarImagen('../imagenes/zapatillas/cacao 6.png')">
-                </div>
-    
-                <div id="imagenPrincipal">
-                    <img src="../imagenes/zapatillas/cacao 1.png" class="principal" alt="cacao">
-                </div>
-                <br>
-    
-                <div class="vistasH">
-                    <img src="../imagenes/zapatillas/cacao 1.png" class="imgS" alt="h1" onclick="cambiarImagen('../imagenes/zapatillas/cacao 1.png')">
-                    <img src="../imagenes/zapatillas/cacao 2.png" class="imgS" alt="h2" onclick="cambiarImagen('../imagenes/zapatillas/cacao 2.png')">
-                    <img src="../imagenes/zapatillas/cacao 3.png" class="imgS" alt="h3" onclick="cambiarImagen('../imagenes/zapatillas/cacao 3.png')">
-                    <img src="../imagenes/zapatillas/cacao 4.png" class="imgS" alt="h4" onclick="cambiarImagen('../imagenes/zapatillas/cacao 4.png')">
-                    <img src="../imagenes/zapatillas/cacao 5.png" class="imgS" alt="h5" onclick="cambiarImagen('../imagenes/zapatillas/cacao 5.png')">
-                    <img src="../imagenes/zapatillas/cacao 6.png" class="imgS" alt="h6" onclick="cambiarImagen('../imagenes/zapatillas/cacao 6.png')">
-                </div>
+
+<head>
+    <link rel="shortcut icon" href="imagenes/royal.png" />
+    <script src="https://kit.fontawesome.com/1cafd7d341.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunk cacao</title>
+    <link rel="stylesheet" href="../headerFooter.css">
+    <link rel="stylesheet" href="css/producto.css" media="screen">
+</head>
+
+<body>
+    <div class="gratis">
+        <p>ENVIOS GRATIS A PARTIR DE 80 €</p>
+    </div>
+    <div id="header">
+        <div class="menu">
+            <div id="hamburguesa" onclick="mostrarMenu()">
+                <i class="fa-solid fa-bars"></i>
             </div>
 
-            <div class="informacion">
-                <div class="nombre">
-                    <h2>Nike dunk low cacao</h2>
-                    <h2>120,00 €</h2>
-                </div>
-                <div class="colores">
-                    <img src="../imagenes/zapatillas/cacao 1.png" class="activo" alt="cacao">
-                    <img src="../imagenes/zapatillas/dunk lilas.png" alt="lilas">
-                    <img src="../imagenes/zapatillas/dunk azules.png" alt="azules">
-                    <img src="../imagenes/zapatillas/dunk grey 1.png" alt="grey">
-                    <img src="../imagenes/zapatillas/dunk panda.png" alt="panda">
-                    <img src="../imagenes/zapatillas/dunk granate.png" alt="granate">
-                    <img src="../imagenes/zapatillas/dunk verde caqui.png" alt="caqui">
-                    <img src="../imagenes/zapatillas/dunk verdes.png" alt="verde">
-                </div>
+            <div id="desplegable" class="hidden">
+                <div class="close-btn" onclick="mostrarMenu()">x</div>
 
-                <h2>Tallas</h2>
-                <div class="tallas">
-                    <button class="talla">36</button>
-                    <button class="talla">37</button>
-                    <button class="talla">38</button>
-                    <button class="talla">39</button>
-                    <button class="talla">40</button>
-                    <button class="talla">41</button>
-                    <button class="talla">42</button>
-                    <button class="talla">43</button>
-                    <button class="talla">44</button>
-                    <button class="talla">45</button>
-                    <button class="talla">46</button>
-                    <button class="talla">47</button>
-
-                </div>
-                <button id="carrito" disabled>Añadir al carrito</button>
+                <ul class="menu-desplegable">
+                    <li><a href="../all_products/">Ropa</a></li><hr>
+                    <li><a href="../all_products/">Zapatillas</a></li><hr>
+                    <li><a href="../all_products/">Novedades</a></li><hr>
+                    <li><a href="../all_products/">Best Sellers</a></li>
+                </ul>
             </div>
         </div>
 
-        <div class="interes">
-            <h2>TAMBIÉN TE PODRÍA INTERESAR</h2>
-            <div class="interes_productos">
-                <a href="../producto">
-                    <img src="../imagenes/zapatillas/campus.png" alt="dunk gris"></a>
-                <a href="../producto">
-                    <img src="../imagenes/zapatillas/jordan 1 low gris.png" alt="j1 azules"></a>
-                <a href="../producto">
-                    <img src="../imagenes/zapatillas/nb 9060 negras.png" alt="nb9060 negras"></a>
-                <a href="../producto">
-                    <img src="../imagenes/zapatillas/samba.png" alt="samba"></a>
-                <a href="../producto">
-                    <img src="../imagenes/zapatillas/forum bbunny.png" alt="samba"></a>    
+
+        <div class="logo">
+            <a href=".."><img src="../imagenes/royal.png"></a>
+        </div>
+
+        <div class="iconos">
+            <a><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="../producto"><i class="fa-solid fa-user"></i></a>
+            <a href="../carrito"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </div>
+
+    <div class="producto">
+
+        <div class="zapatilla">
+            <div class="vistasV">
+                <img src="../imagenes/zapatillas/cacao 1.png" class="imgS" alt="v1"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 1.png')">
+                <img src="../imagenes/zapatillas/cacao 2.png" class="imgS" alt="v2"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 2.png')">
+                <img src="../imagenes/zapatillas/cacao 3.png" class="imgS" alt="v3"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 3.png')">
+                <img src="../imagenes/zapatillas/cacao 4.png" class="imgS" alt="v4"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 4.png')">
+                <img src="../imagenes/zapatillas/cacao 5.png" class="imgS" alt="v5"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 5.png')">
+                <img src="../imagenes/zapatillas/cacao 6.png" class="imgS" alt="v6"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 6.png')">
+            </div>
+
+            <div id="imagenPrincipal">
+                <img src="../imagenes/zapatillas/cacao 1.png" class="principal" alt="cacao">
+            </div>
+            <br>
+
+            <div class="vistasH">
+                <img src="../imagenes/zapatillas/cacao 1.png" class="imgS" alt="h1"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 1.png')">
+                <img src="../imagenes/zapatillas/cacao 2.png" class="imgS" alt="h2"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 2.png')">
+                <img src="../imagenes/zapatillas/cacao 3.png" class="imgS" alt="h3"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 3.png')">
+                <img src="../imagenes/zapatillas/cacao 4.png" class="imgS" alt="h4"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 4.png')">
+                <img src="../imagenes/zapatillas/cacao 5.png" class="imgS" alt="h5"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 5.png')">
+                <img src="../imagenes/zapatillas/cacao 6.png" class="imgS" alt="h6"
+                    onclick="cambiarImagen('../imagenes/zapatillas/cacao 6.png')">
             </div>
         </div>
 
-        
-        <div id="footer">
-            <div class="redes">
-                <h3>Royal Streetwear</h3>
-                <a href="#" class="correo">help@royal-streetwear.com</a>
-                <div>
+        <div class="informacion">
+            <div class="nombre">
+                <h2>Nike dunk low cacao</h2>
+                <h2>120,00 €</h2>
+            </div>
+            <div class="colores">
+                <img src="../imagenes/zapatillas/cacao 1.png" class="activo" alt="cacao">
+                <img src="../imagenes/zapatillas/dunk lilas.png" alt="lilas">
+                <img src="../imagenes/zapatillas/dunk azules.png" alt="azules">
+                <img src="../imagenes/zapatillas/dunk grey 1.png" alt="grey">
+                <img src="../imagenes/zapatillas/dunk panda.png" alt="panda">
+                <img src="../imagenes/zapatillas/dunk granate.png" alt="granate">
+                <img src="../imagenes/zapatillas/dunk verde caqui.png" alt="caqui">
+                <img src="../imagenes/zapatillas/dunk verdes.png" alt="verde">
+            </div>
+
+            <h2>Tallas</h2>
+            <div class="tallas">
+                <button class="talla">36</button>
+                <button class="talla">37</button>
+                <button class="talla">38</button>
+                <button class="talla">39</button>
+                <button class="talla">40</button>
+                <button class="talla">41</button>
+                <button class="talla">42</button>
+                <button class="talla">43</button>
+                <button class="talla">44</button>
+                <button class="talla">45</button>
+                <button class="talla">46</button>
+                <button class="talla">47</button>
+
+            </div>
+            <button id="carrito" disabled>Añadir al carrito</button>
+        </div>
+    </div>
+
+    <div class="interes">
+        <h2>TAMBIÉN TE PODRÍA INTERESAR</h2>
+        <div class="interes_productos">
+            <a href="../producto">
+                <img src="../imagenes/zapatillas/campus.png" alt="dunk gris"></a>
+            <a href="../producto">
+                <img src="../imagenes/zapatillas/jordan 1 low gris.png" alt="j1 azules"></a>
+            <a href="../producto">
+                <img src="../imagenes/zapatillas/nb 9060 negras.png" alt="nb9060 negras"></a>
+            <a href="../producto">
+                <img src="../imagenes/zapatillas/samba.png" alt="samba"></a>
+            <a href="../producto">
+                <img src="../imagenes/zapatillas/forum bbunny.png" alt="samba"></a>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="redes">
+            <h3>Royal Streetwear</h3>
+            <a href="#" class="correo">help@royal-streetwear.com</a>
+            <div>
                 <a><i class="fa-brands fa-instagram"></i></a>
                 <a><i class="fa-brands fa-facebook"></i></a>
                 <a><i class="fa-brands fa-x-twitter"></i></a>
                 <a><i class="fa-brands fa-tiktok"></i></a>
-                </div>
             </div>
-           
-            <div class="recursos">
-                <h3>Recursos</h3>
-                <a href="#">Codigos promocionales</a>
-                <a href="#">Tarjetas de regalo</a>
-                <a href="#">Descuentos especiales</a>
-                <a href="#">Hazte miembro</a>
-            </div>
-           
-            <div class="ayuda">
-                <h3>Ayuda</h3>
-                <a href="#">Obtener ayuda</a>
-                <a href="#">Envíos y entregas</a>
-                <a href="#">Estado del pedido</a>
-                <a href="#">Devoluciones</a>
-                <a href="#">Opciones de pago</a>
-            </div>
-           
-            <div class="empresa">
-                <h3>Empresa</h3>
-                <a href="#">Obtener ayuda</a>
-                <a href="#">Envios y entregas</a>
-                <a href="#">Estado del pedido</a>
-                <a href="#">Devoluciones</a>
-                <a href="#">Opciones de pago</a>
-                <a href="#">Evaluaciones</a>
-            </div>            
-        </div>
-        <div class="pie">
-            <a href="#">Cookies</a> | 
-            <a href="#">Quienes somos</a> |
-            <a href="#">Contáctanos</a> | 
-            <a href="#">Política de privacidad</a>
-            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://www.royalstreetwear.com">Royal Streetwear</a></a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
         </div>
 
-        
-        <script src="producto.js"></script>
+        <div class="recursos">
+            <h3>Recursos</h3>
+            <a href="#">Codigos promocionales</a>
+            <a href="#">Tarjetas de regalo</a>
+            <a href="#">Descuentos especiales</a>
+            <a href="#">Hazte miembro</a>
+        </div>
 
-    </body>
+        <div class="ayuda">
+            <h3>Ayuda</h3>
+            <a href="#">Obtener ayuda</a>
+            <a href="#">Envíos y entregas</a>
+            <a href="#">Estado del pedido</a>
+            <a href="#">Devoluciones</a>
+            <a href="#">Opciones de pago</a>
+        </div>
+
+        <div class="empresa">
+            <h3>Empresa</h3>
+            <a href="#">Obtener ayuda</a>
+            <a href="#">Envios y entregas</a>
+            <a href="#">Estado del pedido</a>
+            <a href="#">Devoluciones</a>
+            <a href="#">Opciones de pago</a>
+            <a href="#">Evaluaciones</a>
+        </div>
+    </div>
+    <div class="pie">
+        <a href="#">Cookies</a> |
+        <a href="#">Quienes somos</a> |
+        <a href="#">Contáctanos</a> |
+        <a href="#">Política de privacidad</a>
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title"
+                rel="cc:attributionURL" href="https://www.royalstreetwear.com">Royal Streetwear</a></a> is licensed
+            under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank"
+                rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+    </div>
+
+
+    <script src="producto.js"></script>
+    <script src="../mostrarMenu.js"></script>
+
+
+</body>
+
 </html>

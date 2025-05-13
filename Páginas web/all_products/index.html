@@ -18,21 +18,25 @@
     </div>
     <div id="header">
         <div class="menu">
-            <div id="botones">
-                <a href="#">Ropa</a>
-                <a href="#">Zapatillas</a>
-                <a href="#">Novedades</a>
-                <a href="#">Best Sellers</a>
-                
+            <div id="hamburguesa" onclick="mostrarMenu()">
+                <i class="fa-solid fa-bars"></i>
             </div>
-            <div id="hamburguesa">
-                <a href="../all_products"><i class="fa-solid fa-bars"></i></a>
+
+            <div id="desplegable" class="hidden">
+                <div class="close-btn" onclick="mostrarMenu()">x</div>
+             
+                <ul class="menu-desplegable">
+                    <li><a href="../all_products/">Ropa</a></li><hr>
+                    <li><a href="../all_products/">Zapatillas</a></li><hr>
+                    <li><a href="../all_products/">Novedades</a></li><hr>
+                    <li><a href="../all_products/">Best Sellers</a></li><hr>
+                </ul>
             </div>
         </div>
 
 
         <div class="logo">
-            <a href="../"><img src= "../imagenes/royal.png"></a>
+            <a href="../"><img src="../imagenes/royal.png"></a>
         </div>
 
         <div class="iconos">
@@ -151,13 +155,23 @@
 
     <div class="paginas">
         <h3>Páginas</h3>
-            <div class="numPaginas">
-                <a href="."><p class="activo">1</p></a>
-                <a href="."><p>2</p></a>
-                <a href="."><p>3</p></a>
-                <a href="."><p>4</p></a>
-                <a href="."><p>></p></a>
-            </div>
+        <div class="numPaginas">
+            <a href=".">
+                <p class="activo">1</p>
+            </a>
+            <a href=".">
+                <p>2</p>
+            </a>
+            <a href=".">
+                <p>3</p>
+            </a>
+            <a href=".">
+                <p>4</p>
+            </a>
+            <a href=".">
+                <p>></p>
+            </a>
+        </div>
     </div>
 
     <div id="footer">
@@ -216,7 +230,7 @@
                     src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
     </div>
 
-
+    <script src="../mostrarMenu.js"></script>
 
 </body>
 

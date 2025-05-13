@@ -8,15 +8,15 @@
 }
 
 .productos img{ /*la foto del producto */
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin-bottom: 5px;
 
 }
 
 .productos a{ /* cada uno de los productos */
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 350px;
     text-decoration: none;
     margin: 20px 0px; 
     border: 1px solid black;
@@ -79,19 +79,19 @@
 
 
 /*RESPONSIVE*/
-@media screen and (max-width: 1500px) and (min-width: 1200px) {
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
     .productos{
         grid-template-columns: repeat(3, auto);
     }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 800px) {
+@media screen and (max-width: 1200px) and (min-width: 900px) {
     .productos{
         grid-template-columns: repeat(2, auto);
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .productos{
         grid-template-columns: repeat(1, auto);
     }

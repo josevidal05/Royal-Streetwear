@@ -17,32 +17,36 @@
     <div class="gratis">
         <p>ENVIOS GRATIS A PARTIR DE 80 €</p>
     </div>
+
     <div id="header">
         <div class="menu">
-            <div class="menu">
-                <div id="botones">
-                    <a href="#">Ropa</a>
-                    <a href="#">Zapatillas</a>
-                    <a href="#">Novedades</a>
-                    <a href="#">Best Sellers</a>
-                    
-                </div>
-                <div id="hamburguesa">
-                    <a href="all_products/"><i class="fa-solid fa-bars"></i></a>
-                </div>
+            <div id="hamburguesa" onclick="mostrarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div id="desplegable" class="hidden">
+                <div class="close-btn" onclick="mostrarMenu()">x</div>
+                
+                <ul class="menu-desplegable">
+                    <li><a href="all_products/">Ropa</a></li><hr>
+                    <li><a href="all_products/">Zapatillas</a></li><hr>
+                    <li><a href="all_products/">Novedades</a></li><hr>
+                    <li><a href="all_products/">Best Sellers</a></li>
+                </ul>
             </div>
         </div>
+    </div>
 
 
-        <div class="logo">
-            <a href=""><img src="imagenes/royal.png"></a>
-        </div>
+    <div class="logo">
+        <a href="."><img src="imagenes/royal.png"></a>
+    </div>
 
-        <div class="iconos">
-            <a><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="producto/"><i class="fa-solid fa-user"></i></a>
-            <a href="carrito/"><i class="fa-solid fa-cart-shopping"></i></a>
-        </div>
+    <div class="iconos">
+        <a><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="producto/"><i class="fa-solid fa-user"></i></a>
+        <a href="carrito/"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
     </div>
 
     <div class="contenido">
@@ -67,21 +71,25 @@
             <h2>BEST SELLERS</h2>
             <div class="productos">
                 <div class="producto">
-                    <a href="producto/"><img src="imagenes/zapatillas/nb 9060 gris.png" alt="9060 gris" id="9060_gris"></a>
+                    <a href="producto/"><img src="imagenes/zapatillas/nb 9060 gris.png" alt="9060 gris"
+                            id="9060_gris"></a>
                     <p class="p1">190,00€</p>
                 </div>
                 <div class="producto">
-                    <a href="producto/"><img src="imagenes/ropa/sudadera verde cc.png" alt="sudadera verde cold" id="sudadera_verde_cold"></a>
+                    <a href="producto/"><img src="imagenes/ropa/sudadera verde cc.png" alt="sudadera verde cold"
+                            id="sudadera_verde_cold"></a>
                     <p class="p2">69,00€</p>
 
                 </div>
                 <div class="producto">
-                    <a href="producto/"><img src="imagenes/ropa/pantalon fg.png" alt="pantalon blanco fg" id="pantalon_blanco_fg"></a>
+                    <a href="producto/"><img src="imagenes/ropa/pantalon fg.png" alt="pantalon blanco fg"
+                            id="pantalon_blanco_fg"></a>
                     <p class="p3">79,00€</p>
 
                 </div>
                 <div class="producto">
-                    <a href="producto/"><img src="imagenes/ropa/jersey blanco scuff.png" alt="jersey blanco scuffers" id="jersey_blanco_scuffers"></a>
+                    <a href="producto/"><img src="imagenes/ropa/jersey blanco scuff.png" alt="jersey blanco scuffers"
+                            id="jersey_blanco_scuffers"></a>
                     <p class="p4">79,00€</p>
 
                 </div>
@@ -91,7 +99,8 @@
 
                 </div>
                 <div class="producto">
-                    <a href="producto"><img src="imagenes/ropa/camiseta blanca np.png" alt="camiseta blanca np" id="camiseta_blanca_np"></a>
+                    <a href="producto"><img src="imagenes/ropa/camiseta blanca np.png" alt="camiseta blanca np"
+                            id="camiseta_blanca_np"></a>
                     <p class="p6">45,00€</p>
 
                 </div>
@@ -160,6 +169,7 @@
                     src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
     </div>
 
+    <script src="mostrarMenu.js"></script>
 
 
 </body>
