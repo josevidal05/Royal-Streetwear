@@ -1,6 +1,6 @@
 INTRODUCCIÓN
 
-Royal Streetwear es una tienda online especializada en la venta de ropa y zapatillas de estilo urbano. Este proyecto surge como parte de un trabajo académico enfocado en el desarrollo de una propuesta de negocio digital dentro del ámbito de la moda y el e-commerce. El objetivo principal es conceptualizar, diseñar y justificar una plataforma de venta online que conecte a los jóvenes con las últimas tendencias del streetwear internacional.
+Royal Streetwear es una tienda online especializada en la venta de ropa y zapatillas de estilo urbano. Este proyecto surge como parte de un trabajo académico enfocado en el desarrollo de una propuesta de negocio digital dentro del ámbito de la moda y el e-commerce. El objetivo principal es facilitrar el proceso de encontrar el producto de ropa que el usuario busca, reuniendo las prendas y las zapatillas más buscadas, y las que más suelen gustar en una página web, paa que de esta manera el usuario tenga la opción de entrar en una página web en lugar de muchas webs diferentes.
 
 Royal Streetwear no produce su propia ropa, sino que actúa como un puente entre los consumidores y marcas urbanas consolidadas o emergentes, seleccionando cuidadosamente su catálogo para garantizar autenticidad, estilo y calidad.
 
@@ -15,7 +15,7 @@ A través de esta plataforma buscamos no solo ofrecer productos, sino también c
 
 PÚBLICO OBJETIVO
 
-El público objetivo de Royal Streetwear está compuesto principalmente por jóvenes entre 16 y 30 años con un fuerte interés en la moda urbana, la cultura sneaker, el arte callejero y las tendencias digitales. Este segmento valora la autenticidad, la exclusividad y la conexión con comunidades en línea que comparten sus mismos gustos e intereses.
+El público objetivo de Royal Streetwear está compuesto principalmente por jóvenes entre 16 y 30 años con un fuerte interés en la moda urbana, la cultura sneaker y las tendencias digitales. Este segmento valora la autenticidad, la exclusividad y la conexión con comunidades en línea que comparten sus mismos gustos e intereses.
 
 
 OBJETIVOS DEL PROYECTO
