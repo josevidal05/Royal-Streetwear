@@ -1,0 +1,148 @@
+
+/*PRODUCTOS*/
+
+#productos div{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+}
+
+#productos div img{ /*la foto del producto */
+    width: 250px;
+    height: 250px;
+    
+
+}
+
+#productos div a{ /* cada uno de los productos */
+    width: 300px;
+    height: 375px;
+    text-decoration: none;
+    margin: 20px 0px; 
+    border: 1px solid black;
+    padding: 25px;
+    /*font-size: 20px;*/
+}
+
+#productos div p{ /* descripción del producto */
+    color: black;
+    text-decoration: none;
+}
+
+#productos div .precio{ /*precio del producto */
+    font-weight: bold;
+}
+
+#productos div a:hover p{ /* hover de la descripción del producto */
+    text-decoration: underline;
+}
+
+.i1 {
+    width: 250px;
+    height: 250px;
+}
+.i1 img{
+    width: 250px;
+    height: 250px;
+}
+
+.i2 { /* imagen que se muestra al hacer el hover */
+    display: none;
+    width: 250px;
+    height: 250px;
+}
+
+.i2 img{ /* imagen que se muestra al hacer el hover */
+    display: none;
+    width: 250px;
+    height: 250px;
+}
+
+#productos div a:hover .i1{ /* hover de cada producto para cambiar las imagenes */
+    display: none;
+}
+
+#productos div a:hover .i2{ 
+    display: block;
+}
+
+.productos-pag2 a{
+    /*display: none;*/
+}
+
+/* Número de páginas */
+.paginas{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numPaginas{
+    display: flex;
+    justify-content: center;
+}
+
+.numPaginas div{
+    display: flex;
+    justify-content: center;
+}
+
+.numPaginas a{
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.numPaginas a:hover{
+    color:gray;
+}
+
+.numPaginas .activo{
+    font-weight: bold;
+}
+
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
+    #productos  div{
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+    #productos  div{
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #productos  div{
+        grid-template-columns: repeat(1, auto);
+    }
+
+    #productos  div a{
+        width: 300px;
+        height: 350px;;
+    }
+
+    #productos  div a img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .iconos{
+        font-size: 20px;
+    }
+
+    .iconos i{
+        margin: 5px;
+    }
+
+    .hamburguesa a{
+        font-size: 20px;
+    }
+}
+
