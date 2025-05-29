@@ -107,7 +107,7 @@ body {
     color: black;
 }
 
-.hidden {
+.oculto {
     display: none;
 }
 
@@ -118,7 +118,13 @@ body {
     color: black;
 }
 
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+
 .iconos i {
+    align-self: center;
     margin: 10px;
     color: black;
 }

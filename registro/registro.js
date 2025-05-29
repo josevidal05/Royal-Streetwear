@@ -1,4 +1,4 @@
-function send(){
+function registrarUsuario(){
     let nombre = document.getElementById("nombre").value;
     let apellidos = document.getElementById("apellidos").value;
     let correo = document.getElementById("correo").value;

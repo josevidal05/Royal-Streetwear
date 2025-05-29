@@ -37,16 +37,25 @@
     text-decoration: underline;
 }
 
-.i1{
+.i1 {
+    width: 250px;
+    height: 250px;
+}
+.i1 img{
     width: 250px;
     height: 250px;
 }
 
-.i2{ /* imagen que se muestra al hacer el hover */
+.i2 { /* imagen que se muestra al hacer el hover */
     display: none;
     width: 250px;
     height: 250px;
-    
+}
+
+.i2 img{ /* imagen que se muestra al hacer el hover */
+    display: none;
+    width: 250px;
+    height: 250px;
 }
 
 #productos div a:hover .i1{ /* hover de cada producto para cambiar las imagenes */
@@ -74,6 +83,12 @@
     display: flex;
     justify-content: center;
 }
+
+.numPaginas div{
+    display: flex;
+    justify-content: center;
+}
+
 .numPaginas a{
     margin: 15px;
     color: black;
