@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnSiguiente = document.querySelector('.paginas .siguiente');
     const productos = [
         document.querySelector('.productos-pag1'),
-        document.querySelector('.productos-pag2'),
-        document.querySelector('.productos-pag3')
+        document.querySelector('.productos-pag2')
     ];
     let paginaActual = 0;
 

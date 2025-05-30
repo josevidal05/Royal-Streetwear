@@ -743,6 +743,19 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camiseta scuff amarilla 5.png",
         "../imagenes/ropa/camiseta scuff amarilla 6.png"
       ]
+    },
+
+    "hoodie verde Cold Culture":{
+      nombre: "Hoodie Scuffers",
+      precio: "69€",
+      imagenes: [
+        "../imagenes/ropa/sudadera verde cc 1.png",
+        "../imagenes/ropa/sudadera verde cc 2.png",
+        "../imagenes/ropa/sudadera verde cc 3.png",
+        "../imagenes/ropa/sudadera verde cc 4.png",
+        "../imagenes/ropa/sudadera verde cc 5.png",
+        "../imagenes/ropa/sudadera verde cc 6.png"
+      ]
     }
   };
 
