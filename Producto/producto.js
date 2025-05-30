@@ -5,7 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
       precio: "75€",
       imagenes: [
         "../imagenes/ropa/sudadera fg negra 1.png",
-        "../imagenes/ropa/sudadera fg negra 2.png"
+        "../imagenes/ropa/sudadera fg negra 2.png",
+        "../imagenes/ropa/sudadera fg negra 3.png",
+        "../imagenes/ropa/sudadera fg negra 4.png",
+        "../imagenes/ropa/sudadera fg negra 5.png",
+        "../imagenes/ropa/sudadera fg negra 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "Jordan 1 low": {
@@ -14,11 +21,14 @@ document.addEventListener("DOMContentLoaded", function () {
       imagenes: [
         "../imagenes/zapatillas/jordan 1 low gris.png",
         "../imagenes/zapatillas/jordan 1 low gris 2.png",
-        /*"../imagenes/zapatillas/jordan 1 low gris 3.png",
+        "../imagenes/zapatillas/jordan 1 low gris 3.png",
         "../imagenes/zapatillas/jordan 1 low gris 4.png",
         "../imagenes/zapatillas/jordan 1 low gris 5.png",
-        "../imagenes/zapatillas/jordan 1 low gris 6.png"*/
-        
+        "../imagenes/zapatillas/jordan 1 low gris 6.png"
+
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "camiseta Nude Project": {
@@ -26,7 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
       precio: "45€",
       imagenes: [
         "../imagenes/ropa/camiseta blanca np.png",
-        "../imagenes/ropa/camiseta blanca np 2.png"
+        "../imagenes/ropa/camiseta blanca np 2.png",
+        "../imagenes/ropa/camiseta blanca np 3.png",
+        "../imagenes/ropa/camiseta blanca np 4.png",
+        "../imagenes/ropa/camiseta blanca np 5.png",
+        "../imagenes/ropa/camiseta blanca np 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "adidas Samba OG": {
@@ -40,6 +57,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/samba 5.png",
         "../imagenes/zapatillas/samba 6.png",
 
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "pantalon carpenter Cold Culture": {
@@ -47,7 +67,14 @@ document.addEventListener("DOMContentLoaded", function () {
       precio: "79€",
       imagenes: [
         "../imagenes/ropa/pantalon carpenter cc negro.png",
-        "../imagenes/ropa/pantalon carpenter cc negro 2.png"
+        "../imagenes/ropa/pantalon carpenter cc negro 2.png",
+        "../imagenes/ropa/pantalon carpenter cc negro 3.png",
+        "../imagenes/ropa/pantalon carpenter cc negro 4.png",
+        "../imagenes/ropa/pantalon carpenter cc negro 5.png",
+        "../imagenes/ropa/pantalon carpenter cc negro 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "adidas Campus": {
@@ -60,6 +87,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/campus 4.png",
         "../imagenes/zapatillas/campus 5.png",
         "../imagenes/zapatillas/campus 6.png",
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "New Balance 9060": {
@@ -67,7 +97,14 @@ document.addEventListener("DOMContentLoaded", function () {
       precio: "190€",
       imagenes: [
         "../imagenes/zapatillas/nb 9060 negras.png",
-        "../imagenes/zapatillas/nb 9060 negras 2.png"
+        "../imagenes/zapatillas/nb 9060 negras 2.png",
+        "../imagenes/zapatillas/nb 9060 negras 3.png",
+        "../imagenes/zapatillas/nb 9060 negras 4.png",
+        "../imagenes/zapatillas/nb 9060 negras 5.png",
+        "../imagenes/zapatillas/nb 9060 negras 6.png",
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "Jersey Scuffers": {
@@ -75,7 +112,14 @@ document.addEventListener("DOMContentLoaded", function () {
       precio: "79€",
       imagenes: [
         "../imagenes/ropa/jersey blanco scuff.png",
-        "../imagenes/ropa/jersey blanco scuff 2.png"
+        "../imagenes/ropa/jersey blanco scuff 2.png",
+        "../imagenes/ropa/jersey blanco scuff 3.png",
+        "../imagenes/ropa/jersey blanco scuff 4.png",
+        "../imagenes/ropa/jersey blanco scuff 5.png",
+        "../imagenes/ropa/jersey blanco scuff 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "new Balance 530": {
@@ -83,7 +127,14 @@ document.addEventListener("DOMContentLoaded", function () {
       precio: "120€",
       imagenes: [
         "../imagenes/zapatillas/nb 530.png",
-        "../imagenes/zapatillas/nb 530 2.png"
+        "../imagenes/zapatillas/nb 530 2.png",
+        "../imagenes/zapatillas/nb 530 3.png",
+        "../imagenes/zapatillas/nb 530 4.png",
+        "../imagenes/zapatillas/nb 530 5.png",
+        "../imagenes/zapatillas/nb 530 6.png",
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "hoodie Scuffers granate": {
@@ -91,7 +142,14 @@ document.addEventListener("DOMContentLoaded", function () {
       precio: "69€",
       imagenes: [
         "../imagenes/ropa/sudadera granate scuff.png",
-        "../imagenes/ropa/sudadera granate scuff 2.png"
+        "../imagenes/ropa/sudadera granate scuff 2.png",
+        "../imagenes/ropa/sudadera granate scuff 3.png",
+        "../imagenes/ropa/sudadera granate scuff 4.png",
+        "../imagenes/ropa/sudadera granate scuff 5.png",
+        "../imagenes/ropa/sudadera granate scuff 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "zip hoodie Fake Gods": {
@@ -103,9 +161,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera cremallera fg 3.png",
         "../imagenes/ropa/sudadera cremallera fg 4.png",
         "../imagenes/ropa/sudadera cremallera fg 5.png",
-        "../imagenes/ropa/sudadera cremallera fg 6.png",
-        
-
+        "../imagenes/ropa/sudadera cremallera fg 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "nike Dunk low cacao": {
@@ -119,6 +178,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/cacao 5.png",
         "../imagenes/zapatillas/cacao 6.png"
 
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "hoodie Cold Culture": {
@@ -131,6 +193,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera cc azul 4.png",
         "../imagenes/ropa/sudadera cc azul 5.png",
         "../imagenes/ropa/sudadera cc azul 6.png",
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "camiseta Scuffers": {
@@ -143,6 +208,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camiseta negra scuff 4.png",
         "../imagenes/ropa/camiseta negra scuff 5.png",
         "../imagenes/ropa/camiseta negra scuff 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "adidas Forum low Bad Bunny": {
@@ -155,6 +223,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/forum bbunny 4.png",
         "../imagenes/zapatillas/forum bbunny 5.png",
         "../imagenes/zapatillas/forum bbunny 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "pantalon Fake Gods": {
@@ -165,8 +236,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/pantalon fg 2.png",
         "../imagenes/ropa/pantalon fg 3.png",
         "../imagenes/ropa/pantalon fg 4.png",
-        "../imagenes/ropa/pantalon fg 5.png",
-        "../imagenes/ropa/pantalon fg 6.png",
+        //"../imagenes/ropa/pantalon fg 5.png",
+        //"../imagenes/ropa/pantalon fg 6.png",
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "pantalon No Emotions": {
@@ -179,6 +253,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/NoE pants grises 4.png",
         "../imagenes/ropa/NoE pants grises 5.png",
         "../imagenes/ropa/NoE pants grises 6.png",
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "adiadas Spezial": {
@@ -191,6 +268,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/adidas spezial azules 4.png",
         "../imagenes/zapatillas/adidas spezial azules 5.png",
         "../imagenes/zapatillas/adidas spezial azules 6.png",
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "camiseta Two Jeys": {
@@ -201,8 +281,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camiseta 2j gris 2.png",
         "../imagenes/ropa/camiseta 2j gris 3.png",
         "../imagenes/ropa/camiseta 2j gris 4.png",
-        "../imagenes/ropa/camiseta 2j gris 5.png",
-        "../imagenes/ropa/camiseta 2j gris 6.png"
+        //"../imagenes/ropa/camiseta 2j gris 5.png",
+        //"../imagenes/ropa/camiseta 2j gris 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "asics Gel Kayano 14": {
@@ -213,20 +296,26 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/asics gel kayano 14 2.png",
         "../imagenes/zapatillas/asics gel kayano 14 3.png",
         "../imagenes/zapatillas/asics gel kayano 14 4.png",
-        "../imagenes/zapatillas/asics gel kayano 14 5.png",
-        "../imagenes/zapatillas/asics gel kayano 14 6.png"
+        //"../imagenes/zapatillas/asics gel kayano 14 5.png",
+        //"../imagenes/zapatillas/asics gel kayano 14 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "zip hoodie Two Jeys gris": {
-      nombre: "Sudadera con zip Two Jeys",
+      nombre: "Hoodie zip Two Jeys",
       precio: "135€",
       imagenes: [
         "../imagenes/ropa/sudadera zip 2j gris 1.png",
         "../imagenes/ropa/sudadera zip 2j gris 2.png",
         "../imagenes/ropa/sudadera zip 2j gris 3.png",
         "../imagenes/ropa/sudadera zip 2j gris 4.png",
-        "../imagenes/ropa/sudadera zip 2j gris 5.png",
-        "../imagenes/ropa/sudadera zip 2j gris 6.png"
+        //"../imagenes/ropa/sudadera zip 2j gris 5.png",
+        //"../imagenes/ropa/sudadera zip 2j gris 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "asics Gel NYC": {
@@ -237,8 +326,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/asics nyc grises 2.png",
         "../imagenes/zapatillas/asics nyc grises 3.png",
         "../imagenes/zapatillas/asics nyc grises 4.png",
-        "../imagenes/zapatillas/asics nyc grises 5.png",
-        "../imagenes/zapatillas/asics nyc grises 6.png"
+        //"../imagenes/zapatillas/asics nyc grises 5.png",
+        //"../imagenes/zapatillas/asics nyc grises 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "nike Air Max 1": {
@@ -250,17 +342,24 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/air max 1 3.png",
         "../imagenes/zapatillas/air max 1 4.png",
         "../imagenes/zapatillas/air max 1 5.png",
-        "../imagenes/zapatillas/air max 1 6.png"
+        //"../imagenes/zapatillas/air max 1 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "nike P6000": {
       nombre: "Nike p6000",
       precio: "79€",
       imagenes: [
-        "../imagenes/zapatillas/nike p6000 rojas 5.png",
-        "../imagenes/zapatillas/nike p6000 rojas 6.png",
+        "../imagenes/zapatillas/nike p6000 rojas 1.png",
+        "../imagenes/zapatillas/nike p6000 rojas 2.png",
         "../imagenes/zapatillas/nike p6000 rojas 3.png",
         "../imagenes/zapatillas/nike p6000 rojas 4.png",
+        "../imagenes/zapatillas/nike p6000 rojas 5.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "salomon XT-6": {
@@ -273,6 +372,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/salomon XT-6 4.png",
         "../imagenes/zapatillas/salomon XT-6 5.png",
         "../imagenes/zapatillas/salomon XT-6 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "nike Shox": {
@@ -284,7 +386,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/nike shox negras 3.png",
         "../imagenes/zapatillas/nike shox negras 4.png",
         "../imagenes/zapatillas/nike shox negras 5.png",
-        "../imagenes/zapatillas/nike shox negras 6.png"
+        //"../imagenes/zapatillas/nike shox negras 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "longsleeve No Emotions": {
@@ -295,8 +400,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/longsleeve NoE azul 2.png",
         "../imagenes/ropa/longsleeve NoE azul 3.png",
         "../imagenes/ropa/longsleeve NoE azul 4.png",
-        "../imagenes/ropa/longsleeve NoE azul 5.png",
-        "../imagenes/ropa/longsleeve NoE azul 6.png"
+        //"../imagenes/ropa/longsleeve NoE azul 5.png",
+        //"../imagenes/ropa/longsleeve NoE azul 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "nike Air vomero 5": {
@@ -309,6 +417,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/nike air vomero 5 4.png",
         "../imagenes/zapatillas/nike air vomero 5 5.png",
         "../imagenes/zapatillas/nike air vomero 5 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "hoodie No Emotions marron": {
@@ -320,7 +431,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera NoE marron 3.png",
         "../imagenes/ropa/sudadera NoE marron 4.png",
         "../imagenes/ropa/sudadera NoE marron 5.png",
-        "../imagenes/ropa/sudadera NoE marron 6.png",
+        //"../imagenes/ropa/sudadera NoE marron 6.png",
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "pantalon Scuffers": {
@@ -332,7 +446,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/pantalon azul scuff 3.png",
         "../imagenes/ropa/pantalon azul scuff 4.png",
         "../imagenes/ropa/pantalon azul scuff 5.png",
-        "../imagenes/ropa/pantalon azul scuff 6.png"
+        //"../imagenes/ropa/pantalon azul scuff 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "Nike ReactX Rejuvene8": {
@@ -345,6 +462,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/chanclas Nike ReactX Rejuven8 4.png",
         "../imagenes/zapatillas/chanclas Nike ReactX Rejuven8 5.png",
         "../imagenes/zapatillas/chanclas Nike ReactX Rejuven8 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "camisa Two Jeys azul": {
@@ -357,6 +477,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camisa azul 2j 4.png",
         "../imagenes/ropa/camisa azul 2j 5.png",
         "../imagenes/ropa/camisa azul 2j 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "nike Spiridon": {
@@ -368,7 +491,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/nike spiridon 3.png",
         "../imagenes/zapatillas/nike spiridon 4.png",
         "../imagenes/zapatillas/nike spiridon 5.png",
-        "../imagenes/zapatillas/nike spiridon 6.png",
+        //"../imagenes/zapatillas/nike spiridon 6.png",
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "gorra New Era": {
@@ -381,6 +507,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/gorra NE gris 4.png",
         "../imagenes/ropa/gorra NE gris 5.png",
         "../imagenes/ropa/gorra NE gris 6.png",
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "puma Speedcat": {
@@ -392,7 +521,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/Puma Speedcat 3.png",
         "../imagenes/zapatillas/Puma Speedcat 4.png",
         "../imagenes/zapatillas/Puma Speedcat 5.png",
-        "../imagenes/zapatillas/Puma Speedcat 6.png",
+        //"../imagenes/zapatillas/Puma Speedcat 6.png",
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "new balance 1906R": {
@@ -404,7 +536,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/Nb 1906R 3.png",
         "../imagenes/zapatillas/Nb 1906R 4.png",
         "../imagenes/zapatillas/Nb 1906R 5.png",
-        "../imagenes/zapatillas/Nb 1906R 6.png",
+        //"../imagenes/zapatillas/Nb 1906R 6.png",
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "sudadera Two Jeys": {
@@ -416,7 +551,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera 2j azul 3.png",
         "../imagenes/ropa/sudadera 2j azul 4.png",
         "../imagenes/ropa/sudadera 2j azul 5.png",
-        "../imagenes/ropa/sudadera 2j azul 6.png",
+        //"../imagenes/ropa/sudadera 2j azul 6.png",
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "puma Palermo": {
@@ -428,7 +566,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/Puma Palermo 3.png",
         "../imagenes/zapatillas/Puma Palermo 4.png",
         "../imagenes/zapatillas/Puma Palermo 5.png",
-        "../imagenes/zapatillas/Puma Palermo 6.png"
+        //"../imagenes/zapatillas/Puma Palermo 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "pantalon No Emotions estampado": {
@@ -441,6 +582,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/pantalon NoE negro 2.png",
         "../imagenes/ropa/pantalon NoE negro 1.png",
         "../imagenes/ropa/pantalon NoE negro 2.png",
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "hoodie half zip Two Jeys": {
@@ -451,8 +595,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera half zip 2j negra 2.png",
         "../imagenes/ropa/sudadera half zip 2j negra 3.png",
         "../imagenes/ropa/sudadera half zip 2j negra 4.png",
-        "../imagenes/ropa/sudadera half zip 2j negra 5.png",
-        "../imagenes/ropa/sudadera half zip 2j negra 6.png",
+        //"../imagenes/ropa/sudadera half zip 2j negra 5.png",
+        //"../imagenes/ropa/sudadera half zip 2j negra 6.png",
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "Air Max 95": {
@@ -465,6 +612,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/air max 95 4.png",
         "../imagenes/zapatillas/air max 95 5.png",
         "../imagenes/zapatillas/air max 95 6.png",
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "zip hoodie Scuffers": {
@@ -476,7 +626,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera con zip azul marino scuff 3.png",
         "../imagenes/ropa/sudadera con zip azul marino scuff 4.png",
         "../imagenes/ropa/sudadera con zip azul marino scuff 5.png",
-        "../imagenes/ropa/sudadera con zip azul marino scuff 6.png",
+        //"../imagenes/ropa/sudadera con zip azul marino scuff 6.png",
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "hoodie Scuffers": {
@@ -489,6 +642,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera scuff negra 4.png",
         "../imagenes/ropa/sudadera scuff negra 5.png",
         "../imagenes/ropa/sudadera scuff negra 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "adidas Response CL": {
@@ -501,6 +657,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/adidas response CL 4.png",
         "../imagenes/zapatillas/adidas response CL 5.png",
         "../imagenes/zapatillas/adidas response CL 6.png",
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "hoodie Scuffers naranja": {
@@ -513,6 +672,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera naranja scuff 4.png",
         "../imagenes/ropa/sudadera naranja scuff 5.png",
         "../imagenes/ropa/sudadera naranja scuff 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "camisa EME Studios": {
@@ -525,6 +687,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camisa EME 4.png",
         "../imagenes/ropa/camisa EME 5.png",
         "../imagenes/ropa/camisa EME 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "puma Reflective": {
@@ -535,8 +700,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/Puma Reflective 2.png",
         "../imagenes/zapatillas/Puma Reflective 3.png",
         "../imagenes/zapatillas/Puma Reflective 4.png",
-        "../imagenes/zapatillas/Puma Reflective 5.png",
-        "../imagenes/zapatillas/Puma Reflective 6.png"
+        //"../imagenes/zapatillas/Puma Reflective 5.png",
+        //"../imagenes/zapatillas/Puma Reflective 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "camiseta Cold Culture": {
@@ -547,8 +715,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camiseta cc gris 2.png",
         "../imagenes/ropa/camiseta cc gris 3.png",
         "../imagenes/ropa/camiseta cc gris 4.png",
-        "../imagenes/ropa/camiseta cc gris 5.png",
-        "../imagenes/ropa/camiseta cc gris 6.png"
+        //"../imagenes/ropa/camiseta cc gris 5.png",
+        //"../imagenes/ropa/camiseta cc gris 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "jorts Cold Culture": {
@@ -561,6 +732,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/jorts azules cc 4.png",
         "../imagenes/ropa/jorts azules cc 5.png",
         "../imagenes/ropa/jorts azules cc 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "camiseta Fake Gods limon": {
@@ -572,7 +746,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/cami fg azul limones 3.png",
         "../imagenes/ropa/cami fg azul limones 4.png",
         "../imagenes/ropa/cami fg azul limones 5.png",
-        "../imagenes/ropa/cami fg azul limones 6.png"
+        //"../imagenes/ropa/cami fg azul limones 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "camiseta Cold Culture espiral": {
@@ -585,6 +762,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camiseta negra cc 4.png",
         "../imagenes/ropa/camiseta negra cc 5.png",
         "../imagenes/ropa/camiseta negra cc 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "nike V2K Run": {
@@ -597,6 +777,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/v2k run 4.png",
         "../imagenes/zapatillas/v2k run 5.png",
         "../imagenes/zapatillas/v2k run 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "nike US Force 1": {
@@ -609,6 +792,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/US force 1 4.png",
         "../imagenes/zapatillas/US force 1 5.png",
         "../imagenes/zapatillas/US force 1 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "nike Cortez": {
@@ -621,6 +807,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/cortez 4.png",
         "../imagenes/zapatillas/cortez 5.png",
         "../imagenes/zapatillas/cortez 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "jersey EME Studios": {
@@ -633,6 +822,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/jersey gris oscuro EME 4.png",
         "../imagenes/ropa/jersey gris oscuro EME 5.png",
         "../imagenes/ropa/jersey gris oscuro EME 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "sudadera Fake Gods": {
@@ -643,8 +835,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera gris basica logo fg 2.png",
         "../imagenes/ropa/sudadera gris basica logo fg 3.png",
         "../imagenes/ropa/sudadera gris basica logo fg 4.png",
-        "../imagenes/ropa/sudadera gris basica logo fg 5.png",
-        "../imagenes/ropa/sudadera gris basica logo fg 6.png"
+        //"../imagenes/ropa/sudadera gris basica logo fg 5.png",
+        //"../imagenes/ropa/sudadera gris basica logo fg 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "camisa Nude Project": {
@@ -657,6 +852,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camisa marron np 4.png",
         "../imagenes/ropa/camisa marron np 5.png",
         "../imagenes/ropa/camisa marron np 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "Jordan 4 white cement": {
@@ -670,6 +868,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/jordan 4 white cement 5.png",
         "../imagenes/zapatillas/jordan 4 white cement 6.png"
 
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "camiseta Nude Project roja": {
@@ -682,6 +883,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camiseta roja np 4.png",
         "../imagenes/ropa/camiseta roja np 5.png",
         "../imagenes/ropa/camiseta roja np 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "adidas Samba XLG": {
@@ -694,6 +898,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/samba XLG 5.png",
         "../imagenes/zapatillas/samba XLG 5.png",
         "../imagenes/zapatillas/samba XLG 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "Jorts Nude Project": {
@@ -706,6 +913,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/jorts negros np 4.png",
         "../imagenes/ropa/jorts negros np 5.png",
         "../imagenes/ropa/jorts negros np 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "Jersey roto EME Studios": {
@@ -718,6 +928,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/jersey roto verde EME 4.png",
         "../imagenes/ropa/jersey roto verde EME 5.png",
         "../imagenes/ropa/jersey roto verde EME 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
     "Air Jordan 1 high": {
@@ -730,6 +943,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/zapatillas/jordan 1 high 4.png",
         "../imagenes/zapatillas/jordan 1 high 5.png",
         "../imagenes/zapatillas/jordan 1 high 6.png"
+      ],
+      tallas: [
+        "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
     "camiseta Scuffers amarilla": {
@@ -742,10 +958,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/camiseta scuff amarilla 4.png",
         "../imagenes/ropa/camiseta scuff amarilla 5.png",
         "../imagenes/ropa/camiseta scuff amarilla 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     },
 
-    "hoodie verde Cold Culture":{
+    "hoodie verde Cold Culture": {
       nombre: "Hoodie Scuffers",
       precio: "69€",
       imagenes: [
@@ -755,6 +974,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "../imagenes/ropa/sudadera verde cc 4.png",
         "../imagenes/ropa/sudadera verde cc 5.png",
         "../imagenes/ropa/sudadera verde cc 6.png"
+      ],
+      tallas: [
+        "S", "M", "L", "XL"
       ]
     }
   };
@@ -771,6 +993,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const precioElem = document.querySelector(".precio-producto");
     if (nombreElem) nombreElem.textContent = producto.nombre;
     if (precioElem) precioElem.textContent = producto.precio;
+
+    const tituloElem = document.querySelector(".titulo");
+    if (tituloElem) tituloElem.textContent = producto.nombre;
+
+    //Tallas
+    const tallasDiv = document.querySelector(".tallas");
+    if (tallasDiv && producto.tallas) {
+      tallasDiv.innerHTML = ""; // Limpiar antes de añadir
+      producto.tallas.forEach((talla, t) => {
+        tallasDiv.innerHTML += `<button class="talla" alt="t${t + 1}">${talla}</button>`;
+      });
+    }
 
     // Imagen principal
     const imgPrincipal = document.querySelector("#imagenPrincipal img");
