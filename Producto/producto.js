@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"
       ]
     },
-    "Jersey Scuffers": {
+    "jersey Scuffers": {
       nombre: "Jersey Scuffers",
       precio: "79€",
       imagenes: [
@@ -350,7 +350,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     "nike P6000": {
       nombre: "Nike p6000",
-      precio: "79€",
+      precio: "110€",
       imagenes: [
         "../imagenes/zapatillas/nike p6000 rojas 1.png",
         "../imagenes/zapatillas/nike p6000 rojas 2.png",

@@ -72,7 +72,7 @@
 
 /* tallas y nombre producto */
 .informacion {
-    
+    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;

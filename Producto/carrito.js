@@ -31,11 +31,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Cerrar el dropdown si se hace click fuera
     document.addEventListener('click', function (e) {
-        if (!iconoCarrito.parentElement.contains(e.target)) {
-            carritoDropdown.style.display = 'none';
-            dropdownVisible = false;
-        }
-    });
+    if (
+        !iconoCarrito.parentElement.contains(e.target) &&
+        !carritoDropdown.contains(e.target) &&
+        e.target.id !== 'carrito'
+    ) {
+        carritoDropdown.style.display = 'none';
+        dropdownVisible = false;
+    }
+});
 
     // Obtener producto actual
     function obtenerProductoActual() {
@@ -85,18 +89,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Añadir al carrito
     function añadirCarrito() {
-        const producto = obtenerProductoActual();
-        if (!producto.talla) {
-            alert('Selecciona una talla antes de añadir al carrito.');
-            return;
-        }
-        let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-        carrito.push(producto);
-        localStorage.setItem('carrito', JSON.stringify(carrito));
-        renderizarCarrito();
-        // Desmarcar la talla seleccionada después de añadir al carrito
-        tallas.forEach(t => t.classList.remove('selected'));
+    const producto = obtenerProductoActual();
+    if (!producto.talla) {
+        alert('Selecciona una talla antes de añadir al carrito.');
+        return;
     }
+    let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+    carrito.push(producto);
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+    renderizarCarrito();
+    carritoDropdown.style.display = 'block';
+    // Desmarcar la talla seleccionada después de añadir al carrito
+    tallas.forEach(t => t.classList.remove('selected'));
+}
 
     // Eliminar del carrito
     function eliminarDelCarrito(idx) {
