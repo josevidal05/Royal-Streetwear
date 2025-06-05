@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "S", "M", "L", "XL"
       ]
     },
-    "adiadas Spezial": {
+    "adidas Spezial": {
       nombre: "Adidas spezial",
       precio: "120€",
       imagenes: [

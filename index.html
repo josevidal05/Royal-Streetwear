@@ -29,13 +29,13 @@
                 <div class="close-btn" onclick="mostrarMenu()">x</div>
 
                 <ul class="menu-desplegable">
-                    <li><a href="all_products/">Ropa</a></li>
+                    <li><a href="ropa/">Ropa</a></li>
                     <hr>
-                    <li><a href="all_products/">Zapatillas</a></li>
+                    <li><a href="zapatillas/">Zapatillas</a></li>
                     <hr>
                     <li><a href="all_products/">Novedades</a></li>
                     <hr>
-                    <li><a href="all_products/">Best Sellers</a></li>
+                    <li><a href="best_sellers/">Best Sellers</a></li>
                 </ul>
             </div>
         </div>
@@ -45,8 +45,11 @@
         </div>
 
         <div class="iconos">
-            <a href="login/"><i class="fa-solid fa-user"></i></a>
-            <a href="carrito/"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="login"><i class="fa-solid fa-user"></i></a>
+            <div id="icono-carrito">
+                <i class="fa-solid fa-cart-shopping" id="carrito-cabecera"></i>
+                <div id="carrito-dropdown"></div>
+            </div>
         </div>
     </div>
 
@@ -72,23 +75,21 @@
             <h2>BEST SELLERS</h2>
             <div class="productos">
                 <div class="producto">
-                    <a href="producto/.?id=New Balance 9060" >
-                        <img src="imagenes/zapatillas/nb 9060 negras.png" alt="9060 gris"
-                            id="9060_gris">
-                        </a>
+                    <a href="producto/.?id=New Balance 9060">
+                        <img src="imagenes/zapatillas/nb 9060 negras.png" alt="9060 gris" id="9060_gris">
+                    </a>
                     <p class="p1">190,00€</p>
                 </div>
                 <div class="producto">
-                    <a href="producto/.?id=hoodie verde Cold Culture"><img src="imagenes/ropa/sudadera verde cc 1.png" alt="sudadera verde cold"
-                            id="sudadera_verde_cold"></a>
+                    <a href="producto/.?id=hoodie verde Cold Culture"><img src="imagenes/ropa/sudadera verde cc 1.png"
+                            alt="sudadera verde cold" id="sudadera_verde_cold"></a>
                     <p class="p2">69,00€</p>
 
                 </div>
                 <div class="producto">
                     <a href="producto/.?id=pantalon Fake Gods">
-                        <img src="imagenes/ropa/pantalon fg.png" alt="pantalon blanco fg"
-                            id="pantalon_blanco_fg">
-                        </a>
+                        <img src="imagenes/ropa/pantalon fg.png" alt="pantalon blanco fg" id="pantalon_blanco_fg">
+                    </a>
                     <p class="p3">79,00€</p>
 
                 </div>
@@ -96,7 +97,7 @@
                     <a href="producto/.?id=jersey Scuffers">
                         <img src="imagenes/ropa/jersey blanco scuff.png" alt="jersey blanco scuffers"
                             id="jersey_blanco_scuffers">
-                        </a>
+                    </a>
                     <p class="p4">79,00€</p>
 
                 </div>
@@ -111,7 +112,7 @@
                     <a href="producto/.?id=camiseta Nude Project">
                         <img src="imagenes/ropa/camiseta blanca np.png" alt="camiseta blanca np"
                             id="camiseta_blanca_np">
-                        </a>
+                    </a>
                     <p class="p6">45,00€</p>
 
                 </div>
@@ -190,6 +191,8 @@
 
     <script src="mostrarMenu.js"></script>
     <script src="cookies/cookies.js"></script>
+    <script src="Producto/carrito.js"></script>
+
 
 
 </body>

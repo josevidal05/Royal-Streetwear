@@ -31,7 +31,7 @@
                     <li><a href="../ropa/">Ropa</a></li><hr>
                     <li><a href="../zapatillas/">Zapatillas</a></li><hr>
                     <li><a href="../all_products/">Novedades</a></li><hr>
-                    <li><a href="../all_products/">Best Sellers</a></li>
+                    <li><a href="../best_sellers/">Best Sellers</a></li>
                 </ul>
             </div>
         </div>
@@ -42,96 +42,37 @@
         </div>
 
         <div class="iconos">
-            <a href="../login"><i class="fa-solid fa-user"></i></a>
-            <a href="../carrito"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="../login">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <div style="position:relative;">
+                <i class="fa-solid fa-cart-shopping" id="carrito-cabecera"></i>
+                <div id="carrito-dropdown"></div>
+            </div>
         </div>
     </div>
 
 
     <table>
-
-        <tr class="cabecera_tabla">
-
-            <th>Producto</th>
-            <th></th>
-            <th>Cantidad</th>
-            <th>Precio</th>
-
-        </tr>
-
-
-        <tr class="producto">
-
-            <td class="foto">
-                <a href="../producto">
-                    <img src="../imagenes/ropa/sudadera cremallera fg.png" alt="chaqueta fg">
-                </a>
-            </td>
-            <td class="info">
-                <a href="../producto">
-                    <p>Sudadera con cremallera</p>
-                    <p>75€</p>
-                    <p>gris claro / L</p>
-                </a>
-            </td>
-
-            <td class="cantidad">2</td>
-            <td class="precio">150,00€</td>
-        </tr>
-
-        <tr class="producto">
-
-            <td class="foto">
-                <a href="../producto">
-                    <img src="../imagenes/zapatillas/nb 9060 gris.png" alt="nb9060">
-                </a>
-            </td>
-            <td class="info">
-                <a href="../producto">
-                    <p>Zapatillas New Balance 9060</p>
-                    <p>190€</p>
-                    <p>gris / 42</p>
-                </a>
-            </td>
-
-            <td class="cantidad">1</td>
-            <td class="precio">190,00€</td>
-        </tr>
-
-        <tr class="producto">
-            <td class="foto">
-                <a href="../producto">
-                    <img src="../imagenes/ropa/sudadera verde cc.png" alt="sudadera cold culture">
-                </a>
-            </td>
-            <td class="info">
-                <a href="../producto">
-                    <p>Sudadera Cold Culture</p>
-                    <p>69,00€</p>
-                    <p>verde / L</p>
-                </a>
-            </td>
-
-            <td class="cantidad">1</td>
-            <td class="precio">69,00€</td>
-        </tr>
-
-        <tr>
-
-            <td class="total">TOTAL</td>
-            <td></td>
-            <td class="cantidad_total">4</td>
-            <td class="precio_total">409,00€</td>
-        </tr>
-
-        <tr>
-            <td colspan="3"></td>
-            <td class="pagar">
-                <button disabled><a href="">PEDIR Y PAGAR</a></button>
-            </td>
-        </tr>
-
-    </table>
+    <tr class="cabecera_tabla">
+        <th>Producto</th>
+        <th></th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+    </tr>
+    <tr>
+        <td class="total">TOTAL</td>
+        <td></td>
+        <td class="cantidad_total"></td>
+        <td class="precio_total"></td>
+    </tr>
+    <tr>
+        <td colspan="3"></td>
+        <td class="pagar">
+            <button disabled><a href="">PEDIR Y PAGAR</a></button>
+        </td>
+    </tr>
+</table>
 
 
 
@@ -201,6 +142,8 @@
 
     <script src="../mostrarMenu.js"></script>
     <script src="../cookies/cookies.js"></script>
+    <script src="productosCarrito.js"></script>
+    <script src="../Producto/carrito.js"></script>
 
 
 </body>
