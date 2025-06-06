@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ]
     },
     "jersey Scuffers": {
-      nombre: "Jersey Scuffers",
+      nombre: "jersey Scuffers",
       precio: "79€",
       imagenes: [
         "../imagenes/ropa/jersey blanco scuff.png",

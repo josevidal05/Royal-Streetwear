@@ -78,10 +78,6 @@
     padding-bottom: 10px;
 }
 
-.best_sellers h2{
-    margin-left: 15px;
-}
-
 .productos {
     display: grid;
     grid-template-columns: repeat(6, auto) ;

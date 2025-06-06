@@ -108,7 +108,7 @@ h2 {
 
 
 .talla.selected {
-    background-color: gray;
+    background-color: darkgrey;
     color: white;
     font-weight: bold;
 }
@@ -241,14 +241,13 @@ h2 {
 }
 
 
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 600px) {
     .producto {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin: 0;
         padding: 0;
-
         justify-content: center;
         align-items: center;
     }
@@ -257,37 +256,32 @@ h2 {
         display: grid;
         grid-template-columns: repeat(1, auto);
         width: 100%;
+        max-width: 100vw;
         align-items: center;
         justify-content: center;
         align-self: center;
+        box-sizing: border-box;
     }
-
-    .principal {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
 
     #imagenPrincipal {
-        width: 350px;
-        height: 360px;
+        width: 100%;
         object-fit: cover;
-        justify-content: center;
-        margin: 0px;
-        align-self: center;
+        margin: 0 auto;
+        display: flex;
         align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
     }
 
     #imagenPrincipal img {
-        margin: 0 auto;
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
         height: 360px;
         object-fit: cover;
         padding: 0;
         margin-bottom: 50px;
-        align-self: center;
+        display: block;
+        box-sizing: border-box;
     }
 
     .vistasH {
@@ -311,9 +305,46 @@ h2 {
         justify-content: space-evenly;
     }
 
+    .informacion {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nombre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
     .tallas {
+        width: 90%;
         display: grid;
         grid-template-columns: repeat(2, auto);
+    }
+
+
+    .talla {
+        padding: 10px 10px;
+        margin: 5px;
+        font-size: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #f0f0f0;
+
+        transition: background-color 0.3s;
+    }
+
+    .talla.selected {
+        background-color: darkgrey;
+        color: white;
+        font-weight: bold;
     }
 
     .interes_productos {
@@ -325,5 +356,9 @@ h2 {
 
     .interes_productos a {
         margin: 5px;
+    }
+
+    #carrito {
+        width: 90%;
     }
 }

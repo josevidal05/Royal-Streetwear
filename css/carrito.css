@@ -64,5 +64,14 @@ button a:hover{
     text-decoration: none;
 }
 
-
+.eliminar-producto{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    
+}
+.eliminar-producto button{
+    color: white;
+    background-color: red;
+}
 
