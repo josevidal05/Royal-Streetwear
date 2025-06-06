@@ -35,11 +35,7 @@ Royal Streetwear es una tienda online de ropa y zapatillas urbanas. El proyecto 
 - [`carrito/productosCarrito.js`](carrito/productosCarrito.js): Lógica del carrito.
 - [`registro/registro.js`](registro/registro.js): Lógica del registro de usuario.
 
-## Cómo ejecutar
 
-1. Clona el repositorio o descarga los archivos.
-2. Abre `index.html` en tu navegador.
-3. Navega por las diferentes secciones desde el menú.
 
 ## Créditos
 
